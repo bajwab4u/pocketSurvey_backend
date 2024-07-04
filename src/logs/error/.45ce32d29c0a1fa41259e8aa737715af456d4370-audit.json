@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "E:\\nProjects-master\\engagement-platform\\packages\\core-engine\\src\\logs\\error\\.45ce32d29c0a1fa41259e8aa737715af456d4370-audit.json",
+    "files": [
+        {
+            "date": 1718037347603,
+            "name": "E:\\nProjects-master\\engagement-platform\\packages\\core-engine\\src\\logs\\error\\2024-06-10.log",
+            "hash": "edf24e6580c61fce4ea56bd1d81e5a80"
+        }
+    ]
+}

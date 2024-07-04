@@ -1,0 +1,1 @@
+2024-06-28 07:04:04 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: email must be an email,email should not be empty, name should not be empty, jobTitle should not be empty, password should not be empty, confirmPassword should not be empty, webAddress should not be empty

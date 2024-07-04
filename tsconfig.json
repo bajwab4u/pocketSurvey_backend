@@ -1,0 +1,73 @@
+{
+  
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": [
+      "jest",
+      "node"
+    ],
+    "typeRoots": [
+      "../../node_modules/@types",
+      "./types",
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@databases": [
+        "databases"
+      ],
+      "@dtos/*": [
+        "dtos/*"
+      ],
+      "@entity/*": [
+        "entity/*"
+      ],
+      "@exceptions/*": [
+        "exceptions/*"
+      ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
+      "@middlewares/*": [
+        "middlewares/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.json",
+    ".env"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

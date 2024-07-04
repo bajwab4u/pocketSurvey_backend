@@ -1,0 +1,21 @@
+# scores API
+
+###
+# baseURL
+@baseURL = http://localhost:3000
+
+###
+# Get Scores by User Id
+GET {{baseURL}}/scores/1
+
+
+###
+# Add Scores to userID
+POST {{baseURL}}/scores/add
+Content-Type: application/json
+
+{
+    "userID": "example@gmail.com",
+	"diamonds": "5",
+    "action": "add"
+}

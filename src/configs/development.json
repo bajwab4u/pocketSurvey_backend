@@ -1,0 +1,18 @@
+{
+  "env": "development",
+  "dbConfig": {
+    "host": "localhost",
+    "user": "postgres",
+    "password": "postgres@1122.",
+    "database": "pocket_survey"
+  },
+  "secretKey": "bysAdmin",
+  "log": {
+    "format": "dev",
+    "dir": "../logs"
+  },
+  "cors": {
+    "origin": true,
+    "credentials": true
+  }
+}

@@ -1,0 +1,641 @@
+2024-07-03 04:21:48 info: =================================
+2024-07-03 04:21:48 info: ======= ENV: development =======
+2024-07-03 04:21:48 info: 🚀 App listening on the port 3000
+2024-07-03 04:21:48 info: =================================
+2024-07-03 04:22:01 info: =================================
+2024-07-03 04:22:01 info: ======= ENV: development =======
+2024-07-03 04:22:01 info: 🚀 App listening on the port 3000
+2024-07-03 04:22:01 info: =================================
+2024-07-03 04:22:09 info: =================================
+2024-07-03 04:22:09 info: ======= ENV: development =======
+2024-07-03 04:22:09 info: 🚀 App listening on the port 3000
+2024-07-03 04:22:09 info: =================================
+2024-07-03 04:22:22 info: =================================
+2024-07-03 04:22:22 info: ======= ENV: development =======
+2024-07-03 04:22:22 info: 🚀 App listening on the port 3000
+2024-07-03 04:22:22 info: =================================
+2024-07-03 04:22:37 info: =================================
+2024-07-03 04:22:37 info: ======= ENV: development =======
+2024-07-03 04:22:37 info: 🚀 App listening on the port 3000
+2024-07-03 04:22:37 info: =================================
+2024-07-03 04:23:52 info: =================================
+2024-07-03 04:23:52 info: ======= ENV: development =======
+2024-07-03 04:23:52 info: 🚀 App listening on the port 3000
+2024-07-03 04:23:52 info: =================================
+2024-07-03 04:24:00 info: [0mPOST /resetPasswordEmail [32m200[0m 2628.840 ms - 73[0m
+2024-07-03 04:30:35 info: =================================
+2024-07-03 04:30:35 info: ======= ENV: development =======
+2024-07-03 04:30:35 info: 🚀 App listening on the port 3000
+2024-07-03 04:30:35 info: =================================
+2024-07-03 04:30:46 info: =================================
+2024-07-03 04:30:46 info: ======= ENV: development =======
+2024-07-03 04:30:46 info: 🚀 App listening on the port 3000
+2024-07-03 04:30:46 info: =================================
+2024-07-03 04:31:25 info: =================================
+2024-07-03 04:31:25 info: ======= ENV: development =======
+2024-07-03 04:31:25 info: 🚀 App listening on the port 3000
+2024-07-03 04:31:25 info: =================================
+2024-07-03 04:31:39 info: =================================
+2024-07-03 04:31:39 info: ======= ENV: development =======
+2024-07-03 04:31:39 info: 🚀 App listening on the port 3000
+2024-07-03 04:31:39 info: =================================
+2024-07-03 04:34:38 info: =================================
+2024-07-03 04:34:38 info: ======= ENV: development =======
+2024-07-03 04:34:38 info: 🚀 App listening on the port 3000
+2024-07-03 04:34:38 info: =================================
+2024-07-03 04:34:43 info: [0mPOST /changePassword [33m404[0m 21.159 ms - 154[0m
+2024-07-03 04:35:05 info: =================================
+2024-07-03 04:35:05 info: ======= ENV: development =======
+2024-07-03 04:35:05 info: 🚀 App listening on the port 3000
+2024-07-03 04:35:05 info: =================================
+2024-07-03 04:35:28 info: [0mPOST /changePassword [33m404[0m 18.307 ms - 154[0m
+2024-07-03 04:35:44 info: =================================
+2024-07-03 04:35:44 info: ======= ENV: development =======
+2024-07-03 04:35:44 info: 🚀 App listening on the port 3000
+2024-07-03 04:35:44 info: =================================
+2024-07-03 04:35:48 info: =================================
+2024-07-03 04:35:48 info: ======= ENV: development =======
+2024-07-03 04:35:48 info: 🚀 App listening on the port 3000
+2024-07-03 04:35:48 info: =================================
+2024-07-03 04:35:54 info: [0mPOST /profile/changePassword [33m404[0m 17.586 ms - 162[0m
+2024-07-03 04:35:56 info: [0mPOST /profile/changePassword [33m404[0m 2.291 ms - 162[0m
+2024-07-03 04:36:08 info: [0mPOST /changePassword [33m404[0m 0.930 ms - 154[0m
+2024-07-03 04:36:14 info: [0mPOST /changePassword [33m404[0m 0.643 ms - 154[0m
+2024-07-03 04:36:35 info: =================================
+2024-07-03 04:36:35 info: ======= ENV: development =======
+2024-07-03 04:36:35 info: 🚀 App listening on the port 3000
+2024-07-03 04:36:35 info: =================================
+2024-07-03 04:37:36 info: =================================
+2024-07-03 04:37:36 info: ======= ENV: development =======
+2024-07-03 04:37:36 info: 🚀 App listening on the port 3000
+2024-07-03 04:37:36 info: =================================
+2024-07-03 04:37:37 info: [0mPOST /changePassword [33m404[0m 17.361 ms - 154[0m
+2024-07-03 04:37:38 info: [0mPOST /changePassword [33m404[0m 1.469 ms - 154[0m
+2024-07-03 04:37:39 info: [0mPOST /changePassword [33m404[0m 1.889 ms - 154[0m
+2024-07-03 04:37:46 info: =================================
+2024-07-03 04:37:46 info: ======= ENV: development =======
+2024-07-03 04:37:46 info: 🚀 App listening on the port 3000
+2024-07-03 04:37:46 info: =================================
+2024-07-03 04:38:05 info: =================================
+2024-07-03 04:38:05 info: ======= ENV: development =======
+2024-07-03 04:38:05 info: 🚀 App listening on the port 3000
+2024-07-03 04:38:05 info: =================================
+2024-07-03 04:38:06 info: [0mPOST /changePassword [33m404[0m 25.910 ms - 154[0m
+2024-07-03 04:38:07 info: [0mPOST /changePassword [33m404[0m 1.542 ms - 154[0m
+2024-07-03 04:39:08 info: [0mPOST /changePassword [33m404[0m 1.105 ms - 154[0m
+2024-07-03 04:42:23 info: [0mPOST /changePassword [33m404[0m 0.716 ms - 154[0m
+2024-07-03 04:44:33 info: =================================
+2024-07-03 04:44:33 info: ======= ENV: development =======
+2024-07-03 04:44:33 info: 🚀 App listening on the port 3000
+2024-07-03 04:44:33 info: =================================
+2024-07-03 04:44:40 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword must be a string, newPassword should not be empty
+2024-07-03 04:44:40 info: [0mPOST /changePassword [33m400[0m 24.118 ms - 75[0m
+2024-07-03 04:44:49 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword should not be empty, newPassword should not be empty
+2024-07-03 04:44:49 info: [0mPOST /changePassword [33m400[0m 3.057 ms - 78[0m
+2024-07-03 04:47:31 info: =================================
+2024-07-03 04:47:31 info: ======= ENV: development =======
+2024-07-03 04:47:31 info: 🚀 App listening on the port 3000
+2024-07-03 04:47:31 info: =================================
+2024-07-03 05:07:29 info: =================================
+2024-07-03 05:07:29 info: ======= ENV: development =======
+2024-07-03 05:07:29 info: 🚀 App listening on the port 3000
+2024-07-03 05:07:29 info: =================================
+2024-07-03 05:07:44 info: =================================
+2024-07-03 05:07:44 info: ======= ENV: development =======
+2024-07-03 05:07:44 info: 🚀 App listening on the port 3000
+2024-07-03 05:07:44 info: =================================
+2024-07-03 05:08:34 info: [0mPOST /changePassword [0m-[0m - ms - -[0m
+2024-07-03 05:11:23 info: =================================
+2024-07-03 05:11:23 info: ======= ENV: development =======
+2024-07-03 05:11:23 info: 🚀 App listening on the port 3000
+2024-07-03 05:11:23 info: =================================
+2024-07-03 05:26:05 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:26:05 info: [0mPOST /changePassword [33m401[0m 29.569 ms - 44[0m
+2024-07-03 05:26:23 info: =================================
+2024-07-03 05:26:23 info: ======= ENV: development =======
+2024-07-03 05:26:23 info: 🚀 App listening on the port 3000
+2024-07-03 05:26:23 info: =================================
+2024-07-03 05:29:11 info: =================================
+2024-07-03 05:29:11 info: ======= ENV: development =======
+2024-07-03 05:29:11 info: 🚀 App listening on the port 3000
+2024-07-03 05:29:11 info: =================================
+2024-07-03 05:29:14 info: [0mPOST /login [32m200[0m 35.096 ms - 164[0m
+2024-07-03 05:30:01 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:30:01 info: [0mPOST /changePassword [33m401[0m 4.670 ms - 44[0m
+2024-07-03 05:30:06 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:30:06 info: [0mPOST /changePassword [33m401[0m 4.058 ms - 44[0m
+2024-07-03 05:30:14 info: =================================
+2024-07-03 05:30:14 info: ======= ENV: development =======
+2024-07-03 05:30:14 info: 🚀 App listening on the port 3000
+2024-07-03 05:30:14 info: =================================
+2024-07-03 05:31:28 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:31:28 info: [0mPOST /changePassword [33m401[0m 31.050 ms - 44[0m
+2024-07-03 05:35:31 info: =================================
+2024-07-03 05:35:31 info: ======= ENV: development =======
+2024-07-03 05:35:31 info: 🚀 App listening on the port 3000
+2024-07-03 05:35:31 info: =================================
+2024-07-03 05:35:57 info: =================================
+2024-07-03 05:35:57 info: ======= ENV: development =======
+2024-07-03 05:35:57 info: 🚀 App listening on the port 3000
+2024-07-03 05:35:57 info: =================================
+2024-07-03 05:37:19 info: =================================
+2024-07-03 05:37:19 info: ======= ENV: development =======
+2024-07-03 05:37:19 info: 🚀 App listening on the port 3000
+2024-07-03 05:37:19 info: =================================
+2024-07-03 05:39:45 info: =================================
+2024-07-03 05:39:45 info: ======= ENV: development =======
+2024-07-03 05:39:45 info: 🚀 App listening on the port 3000
+2024-07-03 05:39:45 info: =================================
+2024-07-03 05:39:56 info: [0mPOST /login [32m200[0m 48.552 ms - 164[0m
+2024-07-03 05:41:18 info: =================================
+2024-07-03 05:41:18 info: ======= ENV: development =======
+2024-07-03 05:41:18 info: 🚀 App listening on the port 3000
+2024-07-03 05:41:18 info: =================================
+2024-07-03 05:42:04 info: =================================
+2024-07-03 05:42:04 info: ======= ENV: development =======
+2024-07-03 05:42:04 info: 🚀 App listening on the port 3000
+2024-07-03 05:42:04 info: =================================
+2024-07-03 05:42:19 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 05:42:19 info: [0mPOST /changePassword [31m500[0m 25.742 ms - 34[0m
+2024-07-03 05:43:43 info: =================================
+2024-07-03 05:43:43 info: ======= ENV: development =======
+2024-07-03 05:43:43 info: 🚀 App listening on the port 3000
+2024-07-03 05:43:43 info: =================================
+2024-07-03 06:13:21 info: =================================
+2024-07-03 06:13:21 info: ======= ENV: development =======
+2024-07-03 06:13:21 info: 🚀 App listening on the port 3000
+2024-07-03 06:13:21 info: =================================
+2024-07-03 06:13:50 info: [0mPOST /login [32m200[0m 37.733 ms - 164[0m
+2024-07-03 06:15:06 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:15:06 info: [0mPOST /changePassword [33m401[0m 3.780 ms - 44[0m
+2024-07-03 06:15:47 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:15:47 info: [0mPOST /changePassword [33m401[0m 2.736 ms - 44[0m
+2024-07-03 06:16:04 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:16:04 info: [0mPOST /changePassword [33m401[0m 2.144 ms - 44[0m
+2024-07-03 06:16:17 info: [0mPOST /changePassword [32m200[0m 4.904 ms - 56[0m
+2024-07-03 06:16:45 info: [0mPOST /login [32m200[0m 4.617 ms - 164[0m
+2024-07-03 06:17:10 info: [0mPOST /login [32m200[0m 4.577 ms - 164[0m
+2024-07-03 06:17:26 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:26 info: [0mPOST /changePassword [33m401[0m 1.923 ms - 44[0m
+2024-07-03 06:17:28 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:28 info: [0mPOST /changePassword [33m401[0m 2.493 ms - 44[0m
+2024-07-03 06:17:31 info: [0mPOST /login [32m200[0m 3.880 ms - 164[0m
+2024-07-03 06:17:35 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:35 info: [0mPOST /changePassword [33m401[0m 1.883 ms - 44[0m
+2024-07-03 06:17:42 info: =================================
+2024-07-03 06:17:42 info: ======= ENV: development =======
+2024-07-03 06:17:42 info: 🚀 App listening on the port 3000
+2024-07-03 06:17:42 info: =================================
+2024-07-03 06:17:42 info: [0mPOST /changePassword [32m200[0m 32.324 ms - 56[0m
+2024-07-03 06:17:43 info: [0mPOST /changePassword [32m200[0m 4.178 ms - 56[0m
+2024-07-03 06:18:12 info: =================================
+2024-07-03 06:18:12 info: ======= ENV: development =======
+2024-07-03 06:18:12 info: 🚀 App listening on the port 3000
+2024-07-03 06:18:12 info: =================================
+2024-07-03 06:18:15 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 06:18:15 info: [0mPOST /changePassword [31m500[0m 28.207 ms - 34[0m
+2024-07-03 06:18:18 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 06:18:18 info: [0mPOST /changePassword [31m500[0m 3.414 ms - 34[0m
+2024-07-03 06:18:26 info: =================================
+2024-07-03 06:18:26 info: ======= ENV: development =======
+2024-07-03 06:18:26 info: 🚀 App listening on the port 3000
+2024-07-03 06:18:26 info: =================================
+2024-07-03 06:18:27 info: [0mPOST /changePassword [32m200[0m 34.610 ms - 56[0m
+2024-07-03 06:20:23 info: =================================
+2024-07-03 06:20:23 info: ======= ENV: development =======
+2024-07-03 06:20:23 info: 🚀 App listening on the port 3000
+2024-07-03 06:20:23 info: =================================
+2024-07-03 06:20:58 info: =================================
+2024-07-03 06:20:58 info: ======= ENV: development =======
+2024-07-03 06:20:58 info: 🚀 App listening on the port 3000
+2024-07-03 06:20:58 info: =================================
+2024-07-03 06:21:10 info: =================================
+2024-07-03 06:21:10 info: ======= ENV: development =======
+2024-07-03 06:21:10 info: 🚀 App listening on the port 3000
+2024-07-03 06:21:10 info: =================================
+2024-07-03 06:21:11 info: [0mPOST /changePassword [32m200[0m 32.350 ms - 56[0m
+2024-07-03 06:21:22 info: =================================
+2024-07-03 06:21:22 info: ======= ENV: development =======
+2024-07-03 06:21:22 info: 🚀 App listening on the port 3000
+2024-07-03 06:21:22 info: =================================
+2024-07-03 06:21:22 info: [0mPOST /changePassword [32m200[0m 32.188 ms - 56[0m
+2024-07-03 06:21:37 info: =================================
+2024-07-03 06:21:37 info: ======= ENV: development =======
+2024-07-03 06:21:37 info: 🚀 App listening on the port 3000
+2024-07-03 06:21:37 info: =================================
+2024-07-03 06:23:04 info: =================================
+2024-07-03 06:23:04 info: ======= ENV: development =======
+2024-07-03 06:23:04 info: 🚀 App listening on the port 3000
+2024-07-03 06:23:04 info: =================================
+2024-07-03 06:23:55 info: =================================
+2024-07-03 06:23:55 info: ======= ENV: development =======
+2024-07-03 06:23:55 info: 🚀 App listening on the port 3000
+2024-07-03 06:23:55 info: =================================
+2024-07-03 06:24:37 info: =================================
+2024-07-03 06:24:37 info: ======= ENV: development =======
+2024-07-03 06:24:37 info: 🚀 App listening on the port 3000
+2024-07-03 06:24:37 info: =================================
+2024-07-03 06:24:46 info: =================================
+2024-07-03 06:24:46 info: ======= ENV: development =======
+2024-07-03 06:24:46 info: 🚀 App listening on the port 3000
+2024-07-03 06:24:46 info: =================================
+2024-07-03 06:24:53 error: [POST] /changePassword >> StatusCode:: 400, Message:: Not Valid User Data
+2024-07-03 06:24:53 info: [0mPOST /changePassword [33m400[0m 26.029 ms - 33[0m
+2024-07-03 06:25:05 error: [POST] /changePassword >> StatusCode:: 400, Message:: Not Valid User Data
+2024-07-03 06:25:05 info: [0mPOST /changePassword [33m400[0m 4.304 ms - 33[0m
+2024-07-03 06:25:43 info: =================================
+2024-07-03 06:25:43 info: ======= ENV: development =======
+2024-07-03 06:25:43 info: 🚀 App listening on the port 3000
+2024-07-03 06:25:43 info: =================================
+2024-07-03 06:25:44 info: [0mPOST /changePassword [32m200[0m 54.156 ms - 56[0m
+2024-07-03 06:26:26 info: [0mPOST /login [32m200[0m 8.907 ms - 164[0m
+2024-07-03 06:28:15 info: [0mPOST /changePassword [32m200[0m 5.508 ms - 56[0m
+2024-07-03 06:29:24 info: [0mPOST /login [32m200[0m 6.942 ms - 164[0m
+2024-07-03 06:30:45 info: [0mPOST /login [32m200[0m 6.127 ms - 164[0m
+2024-07-03 06:30:52 info: [0mPOST /login [32m200[0m 3.772 ms - 164[0m
+2024-07-03 06:32:04 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:32:04 info: [0mPOST /changePassword [33m401[0m 3.177 ms - 44[0m
+2024-07-03 06:32:12 info: [0mPOST /login [32m200[0m 4.048 ms - 164[0m
+2024-07-03 06:35:09 info: =================================
+2024-07-03 06:35:09 info: ======= ENV: development =======
+2024-07-03 06:35:09 info: 🚀 App listening on the port 3000
+2024-07-03 06:35:09 info: =================================
+2024-07-03 06:35:09 info: [0mPOST /login [32m200[0m 44.677 ms - 164[0m
+2024-07-03 06:35:14 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:14 info: [0mPOST /changePassword [33m401[0m 3.950 ms - 44[0m
+2024-07-03 06:35:15 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:15 info: [0mPOST /changePassword [33m401[0m 2.293 ms - 44[0m
+2024-07-03 06:35:15 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:15 info: [0mPOST /changePassword [33m401[0m 2.039 ms - 44[0m
+2024-07-03 06:35:16 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:16 info: [0mPOST /changePassword [33m401[0m 2.645 ms - 44[0m
+2024-07-03 06:36:37 info: =================================
+2024-07-03 06:36:37 info: ======= ENV: development =======
+2024-07-03 06:36:37 info: 🚀 App listening on the port 3000
+2024-07-03 06:36:37 info: =================================
+2024-07-03 06:36:38 info: [0mPOST /login [32m200[0m 35.078 ms - 164[0m
+2024-07-03 06:36:41 info: [0mPOST /changePassword [32m200[0m 7.592 ms - 56[0m
+2024-07-03 06:36:44 info: [0mPOST /changePassword [32m200[0m 8.069 ms - 56[0m
+2024-07-03 06:36:46 info: [0mPOST /changePassword [32m200[0m 5.284 ms - 56[0m
+2024-07-03 06:36:47 info: [0mPOST /changePassword [32m200[0m 5.791 ms - 56[0m
+2024-07-03 06:36:52 info: [0mPOST /changePassword [32m200[0m 4.517 ms - 56[0m
+2024-07-03 06:36:53 info: [0mPOST /changePassword [32m200[0m 5.497 ms - 56[0m
+2024-07-03 06:36:53 info: [0mPOST /changePassword [32m200[0m 4.268 ms - 56[0m
+2024-07-03 06:36:54 info: [0mPOST /changePassword [32m200[0m 5.397 ms - 56[0m
+2024-07-03 06:36:55 info: [0mPOST /changePassword [32m200[0m 5.518 ms - 56[0m
+2024-07-03 06:36:56 info: [0mPOST /changePassword [32m200[0m 5.326 ms - 56[0m
+2024-07-03 06:36:57 info: [0mPOST /changePassword [32m200[0m 4.349 ms - 56[0m
+2024-07-03 06:36:59 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:36:59 info: [0mPOST /changePassword [33m401[0m 2.523 ms - 44[0m
+2024-07-03 06:37:00 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:37:00 info: [0mPOST /changePassword [33m401[0m 2.125 ms - 44[0m
+2024-07-03 06:37:42 info: [0mPOST /login [32m200[0m 5.168 ms - 164[0m
+2024-07-03 06:37:58 info: [0mPOST /changePassword [32m200[0m 5.203 ms - 56[0m
+2024-07-03 06:37:59 info: [0mPOST /changePassword [32m200[0m 4.011 ms - 56[0m
+2024-07-03 06:40:02 info: =================================
+2024-07-03 06:40:02 info: ======= ENV: development =======
+2024-07-03 06:40:02 info: 🚀 App listening on the port 3000
+2024-07-03 06:40:02 info: =================================
+2024-07-03 06:50:28 info: =================================
+2024-07-03 06:50:28 info: ======= ENV: development =======
+2024-07-03 06:50:28 info: 🚀 App listening on the port 3000
+2024-07-03 06:50:28 info: =================================
+2024-07-03 06:51:16 info: =================================
+2024-07-03 06:51:16 info: ======= ENV: development =======
+2024-07-03 06:51:16 info: 🚀 App listening on the port 3000
+2024-07-03 06:51:16 info: =================================
+2024-07-03 06:51:20 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:51:20 info: [0mPOST /changePassword [33m401[0m 37.865 ms - 44[0m
+2024-07-03 06:51:24 info: [0mPOST /login [32m200[0m 18.041 ms - 164[0m
+2024-07-03 06:51:27 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 06:51:27 info: [0mPOST /changePassword [33m409[0m 7.737 ms - 30[0m
+2024-07-03 07:03:35 info: =================================
+2024-07-03 07:03:35 info: ======= ENV: development =======
+2024-07-03 07:03:35 info: 🚀 App listening on the port 3000
+2024-07-03 07:03:35 info: =================================
+2024-07-03 07:03:36 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:03:36 info: [0mPOST /changePassword [33m409[0m 31.752 ms - 30[0m
+2024-07-03 07:03:54 info: [0mPOST /changePassword [32m200[0m 53.237 ms - 56[0m
+2024-07-03 07:04:40 info: [0mPOST /login [32m200[0m 9.221 ms - 164[0m
+2024-07-03 07:05:02 info: [0mPOST /changePassword [32m200[0m 14.121 ms - 56[0m
+2024-07-03 07:05:13 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:13 info: [0mPOST /changePassword [33m409[0m 5.545 ms - 30[0m
+2024-07-03 07:05:19 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:05:19 info: [0mPOST /login [33m409[0m 12.466 ms - 32[0m
+2024-07-03 07:05:26 info: [0mPOST /login [32m200[0m 10.224 ms - 164[0m
+2024-07-03 07:05:30 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:30 info: [0mPOST /changePassword [33m409[0m 11.832 ms - 30[0m
+2024-07-03 07:05:38 info: [0mPOST /changePassword [32m200[0m 10.738 ms - 56[0m
+2024-07-03 07:05:44 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:44 info: [0mPOST /changePassword [33m409[0m 4.621 ms - 30[0m
+2024-07-03 07:13:07 info: =================================
+2024-07-03 07:13:07 info: ======= ENV: development =======
+2024-07-03 07:13:07 info: 🚀 App listening on the port 3000
+2024-07-03 07:13:07 info: =================================
+2024-07-03 07:14:20 info: =================================
+2024-07-03 07:14:20 info: ======= ENV: development =======
+2024-07-03 07:14:20 info: 🚀 App listening on the port 3000
+2024-07-03 07:14:20 info: =================================
+2024-07-03 07:14:23 info: =================================
+2024-07-03 07:14:23 info: ======= ENV: development =======
+2024-07-03 07:14:23 info: 🚀 App listening on the port 3000
+2024-07-03 07:14:23 info: =================================
+2024-07-03 07:15:08 info: =================================
+2024-07-03 07:15:08 info: ======= ENV: development =======
+2024-07-03 07:15:08 info: 🚀 App listening on the port 3000
+2024-07-03 07:15:08 info: =================================
+2024-07-03 07:18:40 info: =================================
+2024-07-03 07:18:40 info: ======= ENV: development =======
+2024-07-03 07:18:40 info: 🚀 App listening on the port 3000
+2024-07-03 07:18:40 info: =================================
+2024-07-03 07:19:43 info: =================================
+2024-07-03 07:19:43 info: ======= ENV: development =======
+2024-07-03 07:19:43 info: 🚀 App listening on the port 3000
+2024-07-03 07:19:43 info: =================================
+2024-07-03 07:19:46 info: =================================
+2024-07-03 07:19:46 info: ======= ENV: development =======
+2024-07-03 07:19:46 info: 🚀 App listening on the port 3000
+2024-07-03 07:19:46 info: =================================
+2024-07-03 07:21:05 info: =================================
+2024-07-03 07:21:05 info: ======= ENV: development =======
+2024-07-03 07:21:05 info: 🚀 App listening on the port 3000
+2024-07-03 07:21:05 info: =================================
+2024-07-03 07:21:21 info: =================================
+2024-07-03 07:21:21 info: ======= ENV: development =======
+2024-07-03 07:21:21 info: 🚀 App listening on the port 3000
+2024-07-03 07:21:21 info: =================================
+2024-07-03 07:21:23 error: [POST] /updateProfile >> StatusCode:: 400, Message:: property jobTitle should not exist, property password should not exist, property confirmPassword should not exist, property organizationName should not exist, property webAddress should not exist, name should not be empty, phone must be a string,phone should not be empty, email must be an email,email should not be empty, organization must be a string,organization should not be empty
+2024-07-03 07:21:23 info: [0mPOST /updateProfile [33m400[0m 24.749 ms - 399[0m
+2024-07-03 07:22:22 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:22:22 info: [0mPOST /changePassword [33m409[0m 13.445 ms - 30[0m
+2024-07-03 07:22:27 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:22:27 info: [0mPOST /login [33m409[0m 6.218 ms - 32[0m
+2024-07-03 07:22:33 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:22:33 info: [0mPOST /login [33m409[0m 3.424 ms - 32[0m
+2024-07-03 07:22:37 info: [0mPOST /login [32m200[0m 9.457 ms - 164[0m
+2024-07-03 07:22:41 error: [POST] /updateProfile >> StatusCode:: 400, Message:: name should not be empty, phone should not be empty, email must be an email,email should not be empty, organization should not be empty
+2024-07-03 07:22:41 info: [0mPOST /updateProfile [33m400[0m 2.555 ms - 149[0m
+2024-07-03 07:22:56 error: [POST] /updateProfile >> StatusCode:: 400, Message:: phone should not be empty, email must be an email,email should not be empty, organization should not be empty
+2024-07-03 07:22:56 info: [0mPOST /updateProfile [33m400[0m 1.754 ms - 123[0m
+2024-07-03 07:23:25 error: [POST] /updateProfile >> StatusCode:: 500, Message:: Duplicate entry 'faizan.muslim@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 07:23:25 info: [0mPOST /updateProfile [31m500[0m 21.201 ms - 117[0m
+2024-07-03 07:23:43 error: [POST] /updateProfile >> StatusCode:: 500, Message:: Duplicate entry 'faizan.muslim@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 07:23:43 info: [0mPOST /updateProfile [31m500[0m 10.204 ms - 117[0m
+2024-07-03 07:24:12 info: [0mPOST /updateProfile [32m200[0m 10.554 ms - 33[0m
+2024-07-03 07:24:25 info: =================================
+2024-07-03 07:24:25 info: ======= ENV: development =======
+2024-07-03 07:24:25 info: 🚀 App listening on the port 3000
+2024-07-03 07:24:25 info: =================================
+2024-07-03 07:24:42 info: =================================
+2024-07-03 07:24:42 info: ======= ENV: development =======
+2024-07-03 07:24:42 info: 🚀 App listening on the port 3000
+2024-07-03 07:24:42 info: =================================
+2024-07-03 07:24:45 info: [0mPOST /updateProfile [32m200[0m 38.966 ms - 55[0m
+2024-07-03 07:30:55 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword must be a string,oldPassword should not be empty, newPassword must be a string,newPassword should not be empty
+2024-07-03 07:30:55 info: [0mPOST /changePassword [33m400[0m 3.526 ms - 136[0m
+2024-07-03 08:49:50 info: =================================
+2024-07-03 08:49:50 info: ======= ENV: development =======
+2024-07-03 08:49:50 info: 🚀 App listening on the port 3000
+2024-07-03 08:49:50 info: =================================
+2024-07-03 08:49:54 info: =================================
+2024-07-03 08:49:54 info: ======= ENV: development =======
+2024-07-03 08:49:54 info: 🚀 App listening on the port 3000
+2024-07-03 08:49:54 info: =================================
+2024-07-03 08:50:11 info: =================================
+2024-07-03 08:50:11 info: ======= ENV: development =======
+2024-07-03 08:50:11 info: 🚀 App listening on the port 3000
+2024-07-03 08:50:11 info: =================================
+2024-07-03 08:50:26 info: =================================
+2024-07-03 08:50:26 info: ======= ENV: development =======
+2024-07-03 08:50:26 info: 🚀 App listening on the port 3000
+2024-07-03 08:50:26 info: =================================
+2024-07-03 08:56:13 info: =================================
+2024-07-03 08:56:13 info: ======= ENV: development =======
+2024-07-03 08:56:13 info: 🚀 App listening on the port 3000
+2024-07-03 08:56:13 info: =================================
+2024-07-03 08:56:28 info: =================================
+2024-07-03 08:56:28 info: ======= ENV: development =======
+2024-07-03 08:56:28 info: 🚀 App listening on the port 3000
+2024-07-03 08:56:28 info: =================================
+2024-07-03 08:56:38 info: =================================
+2024-07-03 08:56:38 info: ======= ENV: development =======
+2024-07-03 08:56:38 info: 🚀 App listening on the port 3000
+2024-07-03 08:56:38 info: =================================
+2024-07-03 08:57:02 info: =================================
+2024-07-03 08:57:02 info: ======= ENV: development =======
+2024-07-03 08:57:02 info: 🚀 App listening on the port 3000
+2024-07-03 08:57:02 info: =================================
+2024-07-03 08:58:28 info: [0mPOST /organizationSignup [32m200[0m 96.864 ms - 49[0m
+2024-07-03 08:58:47 error: [POST] /organizationSignup >> StatusCode:: 500, Message:: Duplicate entry 'imran.hameed@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 08:58:47 info: [0mPOST /organizationSignup [31m500[0m 10.749 ms - 116[0m
+2024-07-03 08:59:22 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: confirmPassword should not be empty
+2024-07-03 08:59:22 info: [0mPOST /organizationSignup [33m400[0m 2.484 ms - 49[0m
+2024-07-03 09:02:32 info: =================================
+2024-07-03 09:02:32 info: ======= ENV: development =======
+2024-07-03 09:02:32 info: 🚀 App listening on the port 3000
+2024-07-03 09:02:32 info: =================================
+2024-07-03 09:02:36 info: [0mPOST /organizationSignup [32m200[0m 41.209 ms - 49[0m
+2024-07-03 09:02:50 info: =================================
+2024-07-03 09:02:50 info: ======= ENV: development =======
+2024-07-03 09:02:50 info: 🚀 App listening on the port 3000
+2024-07-03 09:02:50 info: =================================
+2024-07-03 09:04:41 info: =================================
+2024-07-03 09:04:41 info: ======= ENV: development =======
+2024-07-03 09:04:41 info: 🚀 App listening on the port 3000
+2024-07-03 09:04:41 info: =================================
+2024-07-03 09:04:46 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-03 09:04:46 info: [0mPOST /organizationSignup [33m400[0m 35.025 ms - 36[0m
+2024-07-03 09:04:48 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-03 09:04:48 info: [0mPOST /organizationSignup [33m400[0m 3.302 ms - 36[0m
+2024-07-03 09:05:01 info: [0mPOST /organizationSignup [32m200[0m 19.093 ms - 49[0m
+2024-07-03 09:20:37 info: =================================
+2024-07-03 09:20:37 info: ======= ENV: development =======
+2024-07-03 09:20:37 info: 🚀 App listening on the port 3000
+2024-07-03 09:20:37 info: =================================
+2024-07-03 09:21:04 error: [POST] /signout >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-07-03 09:21:04 info: [0mPOST /signout [31m500[0m 6.305 ms - 64[0m
+2024-07-03 09:21:14 info: [0mPOST /login [32m200[0m 35.285 ms - 164[0m
+2024-07-03 09:21:17 error: [POST] /signout >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-07-03 09:21:17 info: [0mPOST /signout [31m500[0m 2.494 ms - 64[0m
+2024-07-03 09:22:20 info: =================================
+2024-07-03 09:22:20 info: ======= ENV: development =======
+2024-07-03 09:22:20 info: 🚀 App listening on the port 3000
+2024-07-03 09:22:20 info: =================================
+2024-07-03 09:22:20 info: [0mPOST /signout [32m200[0m 14.303 ms - 2[0m
+2024-07-03 09:22:23 error: [POST] /signout >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:22:23 info: [0mPOST /signout [33m401[0m 2.409 ms - 44[0m
+2024-07-03 09:22:27 info: [0mPOST /login [32m200[0m 25.227 ms - 164[0m
+2024-07-03 09:22:31 info: [0mPOST /signout [32m200[0m 3.437 ms - 2[0m
+2024-07-03 09:23:12 info: =================================
+2024-07-03 09:23:12 info: ======= ENV: development =======
+2024-07-03 09:23:12 info: 🚀 App listening on the port 3000
+2024-07-03 09:23:12 info: =================================
+2024-07-03 09:23:23 info: =================================
+2024-07-03 09:23:23 info: ======= ENV: development =======
+2024-07-03 09:23:23 info: 🚀 App listening on the port 3000
+2024-07-03 09:23:23 info: =================================
+2024-07-03 09:23:23 error: [POST] /signout >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:23:23 info: [0mPOST /signout [33m401[0m 6.931 ms - 44[0m
+2024-07-03 09:23:28 info: [0mPOST /login [32m200[0m 100.656 ms - 164[0m
+2024-07-03 09:23:35 info: [0mPOST /signout [32m200[0m 4.536 ms - 27[0m
+2024-07-03 09:28:13 info: =================================
+2024-07-03 09:28:13 info: ======= ENV: development =======
+2024-07-03 09:28:13 info: 🚀 App listening on the port 3000
+2024-07-03 09:28:13 info: =================================
+2024-07-03 09:30:17 info: =================================
+2024-07-03 09:30:17 info: ======= ENV: development =======
+2024-07-03 09:30:17 info: 🚀 App listening on the port 3000
+2024-07-03 09:30:17 info: =================================
+2024-07-03 09:30:21 info: =================================
+2024-07-03 09:30:21 info: ======= ENV: development =======
+2024-07-03 09:30:21 info: 🚀 App listening on the port 3000
+2024-07-03 09:30:21 info: =================================
+2024-07-03 09:33:17 info: =================================
+2024-07-03 09:33:17 info: ======= ENV: development =======
+2024-07-03 09:33:17 info: 🚀 App listening on the port 3000
+2024-07-03 09:33:17 info: =================================
+2024-07-03 09:35:18 info: =================================
+2024-07-03 09:35:18 info: ======= ENV: development =======
+2024-07-03 09:35:18 info: 🚀 App listening on the port 3000
+2024-07-03 09:35:18 info: =================================
+2024-07-03 09:38:14 info: =================================
+2024-07-03 09:38:14 info: ======= ENV: development =======
+2024-07-03 09:38:14 info: 🚀 App listening on the port 3000
+2024-07-03 09:38:14 info: =================================
+2024-07-03 09:39:28 info: =================================
+2024-07-03 09:39:28 info: ======= ENV: development =======
+2024-07-03 09:39:28 info: 🚀 App listening on the port 3000
+2024-07-03 09:39:28 info: =================================
+2024-07-03 09:40:00 info: =================================
+2024-07-03 09:40:00 info: ======= ENV: development =======
+2024-07-03 09:40:00 info: 🚀 App listening on the port 3000
+2024-07-03 09:40:00 info: =================================
+2024-07-03 09:40:54 info: [0mPOST /login [32m200[0m 2697.106 ms - 66[0m
+2024-07-03 09:45:24 info: =================================
+2024-07-03 09:45:24 info: ======= ENV: development =======
+2024-07-03 09:45:24 info: 🚀 App listening on the port 3000
+2024-07-03 09:45:24 info: =================================
+2024-07-03 09:45:42 info: =================================
+2024-07-03 09:45:42 info: ======= ENV: development =======
+2024-07-03 09:45:42 info: 🚀 App listening on the port 3000
+2024-07-03 09:45:42 info: =================================
+2024-07-03 09:45:52 info: =================================
+2024-07-03 09:45:52 info: ======= ENV: development =======
+2024-07-03 09:45:52 info: 🚀 App listening on the port 3000
+2024-07-03 09:45:52 info: =================================
+2024-07-03 09:46:25 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 09:46:25 info: [0mPOST /login [33m409[0m 35.245 ms - 32[0m
+2024-07-03 09:46:41 info: [0mPOST /login [32m200[0m 2262.849 ms - 55[0m
+2024-07-03 09:47:07 info: =================================
+2024-07-03 09:47:07 info: ======= ENV: development =======
+2024-07-03 09:47:07 info: 🚀 App listening on the port 3000
+2024-07-03 09:47:07 info: =================================
+2024-07-03 09:47:07 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-07-03 09:47:07 info: [0mPOST /login [31m500[0m 24.647 ms - 133[0m
+2024-07-03 09:47:19 info: =================================
+2024-07-03 09:47:19 info: ======= ENV: development =======
+2024-07-03 09:47:19 info: 🚀 App listening on the port 3000
+2024-07-03 09:47:19 info: =================================
+2024-07-03 09:47:22 info: [0mPOST /login [32m200[0m 2241.640 ms - 55[0m
+2024-07-03 09:47:31 info: =================================
+2024-07-03 09:47:31 info: ======= ENV: development =======
+2024-07-03 09:47:31 info: 🚀 App listening on the port 3000
+2024-07-03 09:47:31 info: =================================
+2024-07-03 09:47:34 info: [0mPOST /login [32m200[0m 2329.698 ms - 55[0m
+2024-07-03 09:48:11 info: =================================
+2024-07-03 09:48:11 info: ======= ENV: development =======
+2024-07-03 09:48:11 info: 🚀 App listening on the port 3000
+2024-07-03 09:48:11 info: =================================
+2024-07-03 09:48:14 info: [0mPOST /login [32m200[0m 2307.084 ms - 55[0m
+2024-07-03 09:48:37 info: [0mPOST /verifyOtp [33m404[0m 2.164 ms - 149[0m
+2024-07-03 09:48:40 info: [0mPOST /verifyOtp [33m404[0m 0.863 ms - 149[0m
+2024-07-03 09:48:58 info: =================================
+2024-07-03 09:48:58 info: ======= ENV: development =======
+2024-07-03 09:48:58 info: 🚀 App listening on the port 3000
+2024-07-03 09:48:58 info: =================================
+2024-07-03 09:48:58 error: [POST] /verifyOtp >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:48:58 info: [0mPOST /verifyOtp [33m401[0m 23.663 ms - 44[0m
+2024-07-03 09:49:02 error: [POST] /verifyOtp >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:49:02 info: [0mPOST /verifyOtp [33m401[0m 5.299 ms - 44[0m
+2024-07-03 09:49:16 info: =================================
+2024-07-03 09:49:16 info: ======= ENV: development =======
+2024-07-03 09:49:16 info: 🚀 App listening on the port 3000
+2024-07-03 09:49:16 info: =================================
+2024-07-03 09:50:39 info: =================================
+2024-07-03 09:50:39 info: ======= ENV: development =======
+2024-07-03 09:50:39 info: 🚀 App listening on the port 3000
+2024-07-03 09:50:39 info: =================================
+2024-07-03 09:50:59 info: =================================
+2024-07-03 09:50:59 info: ======= ENV: development =======
+2024-07-03 09:50:59 info: 🚀 App listening on the port 3000
+2024-07-03 09:50:59 info: =================================
+2024-07-03 09:51:01 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: emial must be an email,emial should not be empty
+2024-07-03 09:51:01 info: [0mPOST /verifyOtp [33m400[0m 35.885 ms - 62[0m
+2024-07-03 09:51:25 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: property email should not exist, emial must be an email,emial should not be empty
+2024-07-03 09:51:25 info: [0mPOST /verifyOtp [33m400[0m 3.270 ms - 95[0m
+2024-07-03 09:51:38 info: =================================
+2024-07-03 09:51:38 info: ======= ENV: development =======
+2024-07-03 09:51:38 info: 🚀 App listening on the port 3000
+2024-07-03 09:51:38 info: =================================
+2024-07-03 09:51:42 info: =================================
+2024-07-03 09:51:42 info: ======= ENV: development =======
+2024-07-03 09:51:42 info: 🚀 App listening on the port 3000
+2024-07-03 09:51:42 info: =================================
+2024-07-03 09:51:43 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: property email should not exist, emial must be an email,emial should not be empty
+2024-07-03 09:51:43 info: [0mPOST /verifyOtp [33m400[0m 23.269 ms - 95[0m
+2024-07-03 09:51:53 info: =================================
+2024-07-03 09:51:53 info: ======= ENV: development =======
+2024-07-03 09:51:53 info: 🚀 App listening on the port 3000
+2024-07-03 09:51:53 info: =================================
+2024-07-03 09:51:53 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: User not found
+2024-07-03 09:51:53 info: [0mPOST /verifyOtp [33m409[0m 33.654 ms - 28[0m
+2024-07-03 09:52:02 info: =================================
+2024-07-03 09:52:02 info: ======= ENV: development =======
+2024-07-03 09:52:02 info: 🚀 App listening on the port 3000
+2024-07-03 09:52:02 info: =================================
+2024-07-03 09:52:03 info: [0mPOST /verifyOtp [32m200[0m 53.757 ms - 164[0m
+2024-07-03 09:52:13 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: Incorrect OTP
+2024-07-03 09:52:13 info: [0mPOST /verifyOtp [33m409[0m 6.725 ms - 27[0m
+2024-07-03 09:52:33 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: Incorrect OTP
+2024-07-03 09:52:33 info: [0mPOST /verifyOtp [33m409[0m 5.574 ms - 27[0m
+2024-07-03 09:57:18 info: [0mPOST /login [32m200[0m 2276.105 ms - 55[0m
+2024-07-03 09:59:27 info: [0mPOST /verifyOtp [32m200[0m 4.132 ms - 164[0m
+2024-07-03 09:59:58 info: [0mPOST /resetPasswordEmail [32m200[0m 3033.546 ms - 73[0m
+2024-07-03 10:30:04 info: [0mPOST /login [32m200[0m 2431.829 ms - 55[0m
+2024-07-03 10:30:27 info: [0mPOST /verifyOtp [32m200[0m 4.724 ms - 164[0m
+2024-07-03 10:44:52 info: =================================
+2024-07-03 10:44:52 info: ======= ENV: development =======
+2024-07-03 10:44:52 info: 🚀 App listening on the port 3000
+2024-07-03 10:44:52 info: =================================
+2024-07-03 10:46:20 info: =================================
+2024-07-03 10:46:20 info: ======= ENV: development =======
+2024-07-03 10:46:20 info: 🚀 App listening on the port 3000
+2024-07-03 10:46:20 info: =================================
+2024-07-03 10:52:01 info: =================================
+2024-07-03 10:52:01 info: ======= ENV: development =======
+2024-07-03 10:52:01 info: 🚀 App listening on the port 3000
+2024-07-03 10:52:01 info: =================================
+2024-07-03 10:52:08 info: =================================
+2024-07-03 10:52:08 info: ======= ENV: development =======
+2024-07-03 10:52:08 info: 🚀 App listening on the port 3000
+2024-07-03 10:52:08 info: =================================
+2024-07-03 10:52:23 info: =================================
+2024-07-03 10:52:23 info: ======= ENV: development =======
+2024-07-03 10:52:23 info: 🚀 App listening on the port 3000
+2024-07-03 10:52:23 info: =================================
+2024-07-03 10:52:54 info: [0mPOST /resendOtp [33m404[0m 26.371 ms - 149[0m
+2024-07-03 10:53:02 info: =================================
+2024-07-03 10:53:02 info: ======= ENV: development =======
+2024-07-03 10:53:02 info: 🚀 App listening on the port 3000
+2024-07-03 10:53:02 info: =================================
+2024-07-03 10:53:34 info: =================================
+2024-07-03 10:53:34 info: ======= ENV: development =======
+2024-07-03 10:53:34 info: 🚀 App listening on the port 3000
+2024-07-03 10:53:34 info: =================================
+2024-07-03 10:53:38 info: [0mPOST /resendOtp [33m404[0m 18.149 ms - 149[0m
+2024-07-03 10:54:08 info: =================================
+2024-07-03 10:54:08 info: ======= ENV: development =======
+2024-07-03 10:54:08 info: 🚀 App listening on the port 3000
+2024-07-03 10:54:08 info: =================================
+2024-07-03 10:54:11 info: [0mPOST /resendOtp [32m200[0m 2311.850 ms - 55[0m
+2024-07-03 10:54:26 info: [0mPOST /resendOtp [32m200[0m 2136.535 ms - 55[0m

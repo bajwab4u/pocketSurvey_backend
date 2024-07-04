@@ -1,0 +1,9 @@
+2024-06-28 06:36:32 info: [0mGET /signout [33m404[0m 9.952 ms - 146[0m
+2024-06-28 06:36:53 info: =================================
+2024-06-28 06:36:53 info: ======= ENV: development =======
+2024-06-28 06:36:53 info: 🚀 App listening on the port 3000
+2024-06-28 06:36:53 info: =================================
+2024-06-28 07:04:04 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: email must be an email,email should not be empty, name should not be empty, jobTitle should not be empty, password should not be empty, confirmPassword should not be empty, webAddress should not be empty
+2024-06-28 07:04:04 info: [0mPOST /organizationSignup [33m400[0m 145.579 ms - 217[0m
+2024-06-28 07:04:13 info: [0mGET /organizationSignup [33m404[0m 1.771 ms - 157[0m
+2024-06-28 07:04:25 info: [0mGET /organizationSignup [33m404[0m 0.662 ms - 157[0m

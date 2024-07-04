@@ -1,0 +1,136 @@
+2024-07-03 04:23:47 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\router\index.js:521:19)
+    at AuthRoute.initializeRoutes (E:\Pocket Survey\pocketSurvey_backend\src\routes\auth.route.ts:20:17)
+    at new AuthRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\auth.route.ts:14:10)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:11:23)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+2024-07-03 04:44:40 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword must be a string, newPassword should not be empty
+2024-07-03 04:44:49 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword should not be empty, newPassword should not be empty
+2024-07-03 05:26:05 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:30:01 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:30:06 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:31:28 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 05:42:19 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 06:15:06 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:15:47 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:16:04 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:26 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:28 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:17:35 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:18:15 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 06:18:18 error: [POST] /changePassword >> StatusCode:: 500, Message:: Something went wrong
+2024-07-03 06:24:53 error: [POST] /changePassword >> StatusCode:: 400, Message:: Not Valid User Data
+2024-07-03 06:25:05 error: [POST] /changePassword >> StatusCode:: 400, Message:: Not Valid User Data
+2024-07-03 06:32:04 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:14 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:15 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:15 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:35:16 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:36:59 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:37:00 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:51:20 error: [POST] /changePassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 06:51:27 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:03:36 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:13 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:19 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:05:30 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:05:44 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:21:23 error: [POST] /updateProfile >> StatusCode:: 400, Message:: property jobTitle should not exist, property password should not exist, property confirmPassword should not exist, property organizationName should not exist, property webAddress should not exist, name should not be empty, phone must be a string,phone should not be empty, email must be an email,email should not be empty, organization must be a string,organization should not be empty
+2024-07-03 07:22:22 error: [POST] /changePassword >> StatusCode:: 409, Message:: User don't exist
+2024-07-03 07:22:27 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:22:33 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 07:22:41 error: [POST] /updateProfile >> StatusCode:: 400, Message:: name should not be empty, phone should not be empty, email must be an email,email should not be empty, organization should not be empty
+2024-07-03 07:22:56 error: [POST] /updateProfile >> StatusCode:: 400, Message:: phone should not be empty, email must be an email,email should not be empty, organization should not be empty
+2024-07-03 07:23:25 error: [POST] /updateProfile >> StatusCode:: 500, Message:: Duplicate entry 'faizan.muslim@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 07:23:43 error: [POST] /updateProfile >> StatusCode:: 500, Message:: Duplicate entry 'faizan.muslim@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 07:30:55 error: [POST] /changePassword >> StatusCode:: 400, Message:: oldPassword must be a string,oldPassword should not be empty, newPassword must be a string,newPassword should not be empty
+2024-07-03 08:58:47 error: [POST] /organizationSignup >> StatusCode:: 500, Message:: Duplicate entry 'imran.hameed@beyondsolutions.co' for key 'user_entity.IDX_415c35b9b3b6fe45a3b065030f'
+2024-07-03 08:59:22 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: confirmPassword should not be empty
+2024-07-03 09:04:46 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-03 09:04:48 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-03 09:17:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:750:12)
+    at reportTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:754:19)
+    at E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1216:34
+    at Object.compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1243:30)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1370:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2024-07-03 09:20:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:750:12)
+    at reportTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:754:19)
+    at E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1216:34
+    at Object.compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1243:30)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1370:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2024-07-03 09:20:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m57[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m57[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:750:12)
+    at reportTSError (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:754:19)
+    at E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1216:34
+    at Object.compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1243:30)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1370:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2024-07-03 09:21:04 error: [POST] /signout >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-07-03 09:21:17 error: [POST] /signout >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'id')
+2024-07-03 09:22:23 error: [POST] /signout >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:23:23 error: [POST] /signout >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:46:25 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-03 09:47:07 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-07-03 09:48:58 error: [POST] /verifyOtp >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:49:02 error: [POST] /verifyOtp >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-03 09:51:01 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: emial must be an email,emial should not be empty
+2024-07-03 09:51:25 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: property email should not exist, emial must be an email,emial should not be empty
+2024-07-03 09:51:43 error: [POST] /verifyOtp >> StatusCode:: 400, Message:: property email should not exist, emial must be an email,emial should not be empty
+2024-07-03 09:51:53 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: User not found
+2024-07-03 09:52:13 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: Incorrect OTP
+2024-07-03 09:52:33 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: Incorrect OTP

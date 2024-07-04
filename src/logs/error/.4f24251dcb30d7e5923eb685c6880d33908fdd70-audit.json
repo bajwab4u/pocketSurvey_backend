@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\.4f24251dcb30d7e5923eb685c6880d33908fdd70-audit.json",
+    "files": [
+        {
+            "date": 1719400662150,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-06-26.log",
+            "hash": "72262e0e5b6c9d454c8012ee263cac3869d47f225729716d001a88e942ffa6ca"
+        },
+        {
+            "date": 1719486290143,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-06-27.log",
+            "hash": "5be25385676776d94bfd97d871c5185a17cc25f2080f0b305f485272b9261d37"
+        },
+        {
+            "date": 1719581809093,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-06-28.log",
+            "hash": "5b853533e77bba72f2e90d55e74fb483f17714e24f700c85d37daec5353766c7"
+        },
+        {
+            "date": 1719851545910,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-01.log",
+            "hash": "7b09545ce45e24611a5309f683ab2321ed1979ad2501b63ab4efa4767727a2b3"
+        },
+        {
+            "date": 1719913583382,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-02.log",
+            "hash": "f50e50a190108745f244dba8d19c53d893d1b2ecbecfe73588b9b7d8f540117a"
+        },
+        {
+            "date": 1720005700419,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-03.log",
+            "hash": "8da9114d12ddf9555437cb79c27e32b43aeacf8579f7cda2c6412ecac9f7a740"
+        },
+        {
+            "date": 1720086199276,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-04.log",
+            "hash": "afaf161225711833bbdd4860af99b80a133e90d9286f3dc4d2d050adf29cdfdb"
+        }
+    ],
+    "hashType": "sha256"
+}

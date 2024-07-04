@@ -1,0 +1,488 @@
+2024-06-26 04:17:49 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:19:25 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:23:32 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:24:59 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:27:08 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:34:49 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:40:23 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:40:27 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:41:50 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:42:02 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:43:25 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:46:56 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:47:22 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:47:28 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:51:39 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:52:09 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:55:22 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:56:03 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:58:07 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 04:59:21 error: uncaughtException: Mysql package has not been found installed. Try to install it: npm install mysql --save
+DriverPackageNotInstalledError: Mysql package has not been found installed. Try to install it: npm install mysql --save
+    at DriverPackageNotInstalledError.TypeORMError [as constructor] (E:\Pocket Survey\pocketSurvey_backend\src\error\TypeORMError.ts:7:9)
+    at new DriverPackageNotInstalledError (E:\Pocket Survey\pocketSurvey_backend\src\error\DriverPackageNotInstalledError.ts:8:9)
+    at MysqlDriver.loadDependencies (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:973:23)
+    at new MysqlDriver (E:\Pocket Survey\pocketSurvey_backend\src\driver\mysql\MysqlDriver.ts:336:14)
+    at DriverFactory.create (E:\Pocket Survey\pocketSurvey_backend\src\driver\DriverFactory.ts:34:24)
+    at new Connection (E:\Pocket Survey\pocketSurvey_backend\src\connection\Connection.ts:128:43)
+    at ConnectionManager.create (E:\Pocket Survey\pocketSurvey_backend\src\connection\ConnectionManager.ts:61:28)
+    at E:\Pocket Survey\pocketSurvey_backend\src\globals.ts:77:35
+    at step (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:143:27)
+    at Object.next (E:\Pocket Survey\pocketSurvey_backend\node_modules\tslib\tslib.js:124:57)
+2024-06-26 05:30:11 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:31:46 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:32:23 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:33:29 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:33:54 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:34:54 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:35:08 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:36:21 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:36:32 error: uncaughtException: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/index.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\index.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:36:47 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:38:22 error: uncaughtException: Cannot find module '@controllers/users.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+Error: Cannot find module '@controllers/users.controller'
+Require stack:
+- E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts
+- E:\Pocket Survey\pocketSurvey_backend\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (E:\Pocket Survey\pocketSurvey_backend\node_modules\@cspotcode\source-map-support\source-map-support.js:679:30)
+    at Function.Module._resolveFilename (E:\Pocket Survey\pocketSurvey_backend\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\routes\users.route.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2024-06-26 05:49:21 error: [POST] /login >> StatusCode:: 400, Message:: property name should not exist, email must be an email, password must be a string,password should not be empty
+2024-06-26 05:50:15 error: [POST] /login >> StatusCode:: 409, Message:: You're email bajwab4u@gmail.com not found
+2024-06-26 05:58:07 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 05:58:10 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 05:59:17 error: [POST] /login >> StatusCode:: 409, Message:: You're password not matching
+2024-06-26 05:59:50 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 05:59:52 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 06:00:28 error: [POST] /login >> StatusCode:: 409, Message:: You're email bajwab4u@gmail.com not found
+2024-06-26 06:01:50 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-06-26 06:03:11 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 06:03:12 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 06:03:21 error: [POST] /login >> StatusCode:: 500, Message:: Connection is not established with mysql database
+2024-06-26 06:06:00 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-06-26 06:22:08 error: [POST] /login >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 0
+2024-06-26 06:22:10 error: [POST] /login >> StatusCode:: 400, Message:: Unexpected token s in JSON at position 0
+2024-06-26 06:25:25 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 06:33:07 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 06:49:39 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 07:10:20 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-06-26 07:25:26 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 07:25:38 error: uncaughtException: connect ECONNREFUSED ::1:27017
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017
+    at Timeout._onTimeout (E:\Pocket Survey\pocketSurvey_backend\node_modules\mongodb\src\sdam\topology.ts:564:30)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-06-26 07:26:01 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 07:26:03 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 07:26:52 error: uncaughtException: connect ECONNREFUSED ::1:27017
+MongoServerSelectionError: connect ECONNREFUSED ::1:27017
+    at Timeout._onTimeout (E:\Pocket Survey\pocketSurvey_backend\node_modules\mongodb\src\sdam\topology.ts:564:30)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-06-26 07:27:11 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 07:27:13 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 07:27:15 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 08:38:36 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 08:46:15 error: [POST] /login >> StatusCode:: 500, Message:: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2024-06-26 09:07:34 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:08:08 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:18:32 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:19:19 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2024-06-26 09:19:36 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:21:59 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-06-26 09:42:22 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password must be a string,password should not be empty
+2024-06-26 09:43:07 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:43:09 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 09:46:55 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 10:08:33 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 10:15:12 error: [POST] /login >> StatusCode:: 409, Message:: Email bajwab4u@gmail.com not found
+2024-06-26 10:26:59 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password must be a string,password should not be empty

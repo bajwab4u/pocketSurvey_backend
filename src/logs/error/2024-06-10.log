@@ -1,0 +1,6 @@
+2024-06-10 09:36:15 error: uncaughtException: connect ETIMEDOUT 192.168.126.143:5432
+Error: connect ETIMEDOUT 192.168.126.143:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+2024-06-10 09:42:46 error: uncaughtException: connect ETIMEDOUT 192.168.126.143:5432
+Error: connect ETIMEDOUT 192.168.126.143:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
