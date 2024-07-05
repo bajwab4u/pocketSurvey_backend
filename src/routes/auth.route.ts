@@ -43,7 +43,7 @@ class AuthRoute implements Routes {
       this.authController.organizationSignup
     );
     this.router.post(
-      `${this.path}resetPassword`,
+      `${this.path}sendResetPasswordLink`,
       validationMiddleware(resetPassword_Dto, "body"),
       this.authController.sendResetPasswordLink
     );

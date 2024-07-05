@@ -16,34 +16,7 @@ class AuthService {
   public async changePassword(
     userId: any,
     requestData: changePassword_Dto
-  ): Promise<{ email: string }> {
-    if (isEmpty(requestData)) {
-      const error: Error = new Error(`Not Valid User Data.`);
-      (error as any).errorCode = 404;
-      throw error;
-    }
-
-    const userRepository = getRepository(this.users);
-    const findUser: User = await userRepository.findOne({
-      where: { id: userId, password: requestData.oldPassword },
-    });
-
-    if (!findUser) {
-      const error: Error = new Error(`User don't exist.`);
-      (error as any).errorCode = 409;
-      throw error;
-    }
-    await userRepository.update(findUser.id, {
-      password: requestData.newPassword,
-    });
-
-    return { email: findUser.email };
-  }
-
-  public async updateProfile(
-    userId: any,
-    requestData: updateProfile_Dto
-  ): Promise<{ email: string }> {
+  ): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -60,14 +33,69 @@ class AuthService {
       (error as any).errorCode = 409;
       throw error;
     }
-    await userRepository.update(findUser.id, {
-      name: requestData.name,
-      phone: requestData.phone,
-      email: requestData.email,
-      organization: requestData.organization,
+
+    
+    if (findUser.password != requestData.oldPassword) {
+      const error: Error = new Error(`Incorrect Password`);
+      (error as any).errorCode = 409;
+      throw error;
+    }
+
+    if (requestData.oldPassword == requestData.newPassword) {
+      const error: Error = new Error(`Old and new shouldn't be same.`);
+      (error as any).errorCode = 409;
+      throw error;
+    }
+
+      await userRepository.update(findUser.id, {
+        password: requestData.newPassword,
+      });
+  
+    
+    
+    
+    return { user: findUser };
+  }
+
+  public async updateProfile(
+    userId: any,
+    requestData: updateProfile_Dto
+  ): Promise<{ user: any }> {
+    if (isEmpty(requestData)) {
+      const error: Error = new Error(`Not Valid User Data.`);
+      (error as any).errorCode = 404;
+      throw error;
+    }
+
+    const userRepository = getRepository(this.users);
+    const findUser: User = await userRepository.findOne({
+      where: { id: userId },
     });
 
-    return { email: requestData.email };
+    if (!findUser) {
+      const error: Error = new Error(`User don't exist.`);
+      (error as any).errorCode = 409;
+      throw error;
+    }
+
+    try{
+       await userRepository.update(findUser.id, {
+        name: requestData.name,
+        phone: requestData.phone,
+        email: requestData.email,
+        organization: requestData.organization,
+      });
+      var updatedUser = await userRepository.findOne(findUser.id);
+    }catch(err){
+    
+        const error: Error = new Error(`User with this email already exists.`);
+        (error as any).errorCode = 404;
+        throw error;
+      
+    }
+    
+
+    return { user: updatedUser };
   }
 }
 

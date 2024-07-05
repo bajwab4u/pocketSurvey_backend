@@ -14,7 +14,7 @@ class ProfileController {
     try {
       const requestData: updateProfile_Dto = req.body;
       const userId = req["user"].id;
-      const { email } = await this.profileService.updateProfile(
+      const { user } = await this.profileService.updateProfile(
         userId,
         requestData
       );
@@ -24,7 +24,12 @@ class ProfileController {
           message: `User profile has been updated.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email,
+            role:user.role || null
+          }
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -57,17 +62,22 @@ class ProfileController {
     try {
       const requestData: changePassword_Dto = req.body;
       const userId = req["user"].id;
-      const { email } = await this.profileService.changePassword(
+      const { user } = await this.profileService.changePassword(
         userId,
         requestData
       );
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `${email} password has been changed successfully.`,
+          message: `${user.email} password has been changed successfully.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email,
+            role:user.role
+          }
+        },
         pagination: {
           paginationEnabled: false,
         },

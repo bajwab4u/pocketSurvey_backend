@@ -27,7 +27,7 @@ class AuthService {
     },
   });
 
-  public async login(userData: userLogin_Dto): Promise<{ email: string }> {
+  public async login(userData: userLogin_Dto): Promise<{ user: User }> {
     if (isEmpty(userData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -47,7 +47,7 @@ class AuthService {
     const isPasswordMatching: boolean = await (userData.password ==
       findUser.password);
     if (!isPasswordMatching) {
-      const error: Error = new Error(`Incorrect Email or Password.`);
+      const error: Error = new Error(`Incorrect Password.`);
       (error as any).errorCode = 409;
       throw error;
     }
@@ -61,12 +61,12 @@ class AuthService {
       text: `Your Verification OTP is ${otp}.`,
       html: "",
     });
-    return { email: findUser.email };
+    return { user: findUser };
   }
 
   public async resendOtp(
     requestData: userLogin_Dto
-  ): Promise<{ email: string }> {
+  ): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -92,12 +92,12 @@ class AuthService {
       text: `Your Verification OTP is ${otp}.`,
       html: "",
     });
-    return { email: findUser.email };
+    return { user: findUser };
   }
 
   public async verifyOtp(
     requestData: verifyOtp_Dto
-  ): Promise<{ cookie: string; token: TokenData }> {
+  ): Promise<{ cookie: string; token: TokenData,user:User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -124,12 +124,12 @@ class AuthService {
     const tokenData = this.createToken(findUser);
     const cookie = this.createCookie(tokenData);
 
-    return { cookie, token: tokenData };
+    return { cookie, token: tokenData , user:findUser };
   }
 
   public async organizationSignup(
     requestData: organizationSignup_Dto
-  ): Promise<{ email: string }> {
+  ): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -147,10 +147,10 @@ class AuthService {
       throw error;
     }
 
-    return { email: createOrganization.email };
+    return { user: createOrganization };
   }
 
-  public async signout(userId: any): Promise<{ email: string }> {
+  public async signout(userId: any): Promise<{ user: User }> {
     if (isEmpty(userId)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -169,12 +169,12 @@ class AuthService {
       }
     }
 
-    return { email: findUser.email };
+    return { user: findUser };
   }
 
   public async sendResetPasswordLink(
     requestData: resetPassword_Dto
-  ): Promise<{ email: string }> {
+  ): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -198,7 +198,7 @@ class AuthService {
       html: "<p> This <a href='https://pocketsurvey.co/'>link</a> will expire in 10 mins.</p>",
     });
 
-    return { email: findUser.email };
+    return { user: findUser };
   }
 
   public createToken(user: User): TokenData {

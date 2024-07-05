@@ -539,3 +539,261 @@ RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
 2024-07-05 04:57:58 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
 2024-07-05 04:58:20 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
 2024-07-05 04:58:54 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 02:51:01 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 02:51:30 error: [POST] /updateProfile >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-05 02:51:35 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 02:52:34 error: [POST] /updateProfile >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-05 02:52:51 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
+2024-07-05 02:53:03 error: uncaughtException: Invalid status code: undefined
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.writeHead (node:_http_server:347:11)
+    at ServerResponse.writeHead (E:\Pocket Survey\pocketSurvey_backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse.writeHead (E:\Pocket Survey\pocketSurvey_backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (E:\Pocket Survey\pocketSurvey_backend\node_modules\compression\index.js:103:14)
+    at ServerResponse.send (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\response.js:279:15)
+    at ProfileController.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\controllers\profile.controller.ts:47:30)
+    at step (E:\Pocket Survey\pocketSurvey_backend\src\controllers\profile.controller.ts:33:23)
+2024-07-05 02:54:48 error: [POST] /updateProfile >> StatusCode:: 500, Message:: User with this email already exists.
+2024-07-05 02:55:39 error: [POST] /updateProfile >> StatusCode:: 400, Message:: phone should not be empty
+2024-07-05 02:56:00 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 03:00:42 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:01:22 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 03:01:31 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:02:06 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:02:49 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:03:04 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:03:48 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:15:39 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 03:16:20 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwabu@gmail.com not found.
+2024-07-05 03:17:07 error: [POST] /login >> StatusCode:: 500, Message:: Email "bajwabu@gmail.com" not found.
+2024-07-05 03:17:18 error: [POST] /login >> StatusCode:: 500, Message:: Email 'bajwabu@gmail.com' not found.
+2024-07-05 03:18:11 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwabu@gmail.com not found.
+2024-07-05 03:18:25 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 03:19:09 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:20:25 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:33:46 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:33:58 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:34:18 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:34:30 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:35:29 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:36:01 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:38:25 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:38:45 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:39:11 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:40:32 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:40:39 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:41:39 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:42:06 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:43:32 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:43:45 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:43:56 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:44:50 error: uncaughtException: profile_controller_1.default is not a constructor
+TypeError: profile_controller_1.default is not a constructor
+    at new ProfileRoute (E:\Pocket Survey\pocketSurvey_backend\src\routes\profile.route.ts:12:30)
+    at Object.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\server.ts:12:41)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module.m._compile (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Object.require.extensions.<computed> [as .ts] (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at main (E:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\bin.ts:331:12)
+2024-07-05 03:46:22 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwab4u@gail.com not found.
+2024-07-05 03:46:32 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:48:57 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
+2024-07-05 03:52:52 error: uncaughtException: Invalid status code: undefined
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.writeHead (node:_http_server:347:11)
+    at ServerResponse.writeHead (E:\Pocket Survey\pocketSurvey_backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse.writeHead (E:\Pocket Survey\pocketSurvey_backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at ServerResponse.end (E:\Pocket Survey\pocketSurvey_backend\node_modules\compression\index.js:103:14)
+    at ServerResponse.send (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\response.js:233:10)
+    at ServerResponse.json (E:\Pocket Survey\pocketSurvey_backend\node_modules\express\lib\response.js:279:15)
+    at AuthController.<anonymous> (E:\Pocket Survey\pocketSurvey_backend\src\controllers\auth.controller.ts:148:30)
+    at step (E:\Pocket Survey\pocketSurvey_backend\src\controllers\auth.controller.ts:33:23)
+2024-07-05 03:53:45 error: [POST] /resendOtp >> StatusCode:: 500, Message:: Email bajwab4u@gmil.com not found.
+2024-07-05 04:38:26 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 04:39:57 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 04:44:35 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password

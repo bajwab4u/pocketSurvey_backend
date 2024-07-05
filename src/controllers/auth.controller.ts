@@ -19,15 +19,20 @@ class AuthController {
   ): Promise<void> => {
     try {
       const userData: userLogin_Dto = req.body;
-      const { email } = await this.authService.login(userData);
+      const { user } = await this.authService.login(userData);
 
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `A verification OTP has been sent to ${email}.`,
+          message: `A verification OTP has been sent to ${user.email}.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email
+          }
+          
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -41,7 +46,9 @@ class AuthController {
           message: error.message,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -61,7 +68,7 @@ class AuthController {
   ): Promise<void> => {
     try {
       const requestData: verifyOtp_Dto = req.body;
-      const { cookie, token } = await this.authService.verifyOtp(requestData);
+      const { cookie, token , user } = await this.authService.verifyOtp(requestData);
       const response: ResponseInterface = {
         status: {
           result: "Success",
@@ -69,6 +76,10 @@ class AuthController {
           tokenExpired: false,
         },
         data: {
+          user:{
+            email:user.email,
+            role:user.role || null
+          },
           token: token,
         },
         pagination: {
@@ -104,14 +115,18 @@ class AuthController {
   ): Promise<void> => {
     try {
       const requestData: userLogin_Dto = req.body;
-      const { email } = await this.authService.resendOtp(requestData);
+      const { user } = await this.authService.resendOtp(requestData);
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `A verification OTP has been sent to ${email}.`,
+          message: `A verification OTP has been sent to ${user.email}.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email
+          }
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -143,14 +158,18 @@ class AuthController {
   ): Promise<void> => {
     try {
       const requestData: organizationSignup_Dto = req.body;
-      const { email } = await this.authService.organizationSignup(requestData);
+      const { user } = await this.authService.organizationSignup(requestData);
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `User with email ${email} has been created.`,
+          message: `User with email ${user.email} has been created.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email
+          }
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -182,14 +201,18 @@ class AuthController {
   ): Promise<void> => {
     try {
       const userData: resetPassword_Dto = req.body;
-      const { email } = await this.authService.sendResetPasswordLink(userData);
+      const { user } = await this.authService.sendResetPasswordLink(userData);
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `Reset Password Link has been sent to ${email}.`,
+          message: `Reset Password Link has been sent to ${user.email}.`,
           tokenExpired: false,
         },
-        data: {},
+        data: {
+          user:{
+            email:user.email
+          }
+        },
         pagination: {
           paginationEnabled: false,
         },
@@ -222,12 +245,12 @@ class AuthController {
   ): Promise<void> => {
     try {
       const userId: userLogout_Dto = req["user"].id;
-      const { email } = await this.authService.signout(userId);
+      const { user } = await this.authService.signout(userId);
       res.setHeader("Set-Cookie", ["Authorization=; Max-age=0"]);
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `${email} has been logged out.`,
+          message: `${user.email} has been logged out.`,
           tokenExpired: false,
         },
         data: {},

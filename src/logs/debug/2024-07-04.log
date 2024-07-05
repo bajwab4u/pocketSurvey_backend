@@ -59,3 +59,6 @@
 2024-07-04 10:07:08 info: ======= ENV: development =======
 2024-07-04 10:07:08 info: 🚀 App listening on the port 3000
 2024-07-04 10:07:08 info: =================================
+2024-07-04 10:08:11 info: [0mPOST /login [32m200[0m 2702.864 ms - 137[0m
+2024-07-04 10:09:16 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password
+2024-07-04 10:09:17 info: [0mPOST /login [33m409[0m 4.840 ms - 32[0m

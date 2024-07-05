@@ -1,1 +1,2 @@
 2024-07-04 05:49:42 error: [POST] /verifyOtp >> StatusCode:: 409, Message:: Incorrect OTP
+2024-07-04 10:09:16 error: [POST] /login >> StatusCode:: 409, Message:: Incorrect Password

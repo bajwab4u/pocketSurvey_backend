@@ -679,3 +679,317 @@
 2024-07-05 04:58:20 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
 2024-07-05 04:58:54 info: [0mPOST /changePassword [33m409[0m 8.582 ms - 133[0m
 2024-07-05 04:58:54 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 02:50:28 info: =================================
+2024-07-05 02:50:28 info: ======= ENV: development =======
+2024-07-05 02:50:28 info: 🚀 App listening on the port 3000
+2024-07-05 02:50:28 info: =================================
+2024-07-05 02:51:01 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 02:51:01 info: [0mPOST /login [31m500[0m 41.029 ms - 144[0m
+2024-07-05 02:51:30 error: [POST] /updateProfile >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-05 02:51:30 info: [0mPOST /updateProfile [33m401[0m 4.917 ms - 44[0m
+2024-07-05 02:51:35 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 02:51:35 info: [0mPOST /login [31m500[0m 3.467 ms - 144[0m
+2024-07-05 02:52:21 info: [0mPOST /login [32m200[0m 3302.365 ms - 171[0m
+2024-07-05 02:52:34 error: [POST] /updateProfile >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-05 02:52:34 info: [0mPOST /updateProfile [33m401[0m 2.105 ms - 44[0m
+2024-07-05 02:52:51 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
+2024-07-05 02:52:51 info: [0mPOST /verifyOtp [31m500[0m 2.486 ms - 130[0m
+2024-07-05 02:52:58 info: [0mPOST /verifyOtp [32m200[0m 36.135 ms - 306[0m
+2024-07-05 02:54:45 info: =================================
+2024-07-05 02:54:45 info: ======= ENV: development =======
+2024-07-05 02:54:45 info: 🚀 App listening on the port 3000
+2024-07-05 02:54:45 info: =================================
+2024-07-05 02:54:48 error: [POST] /updateProfile >> StatusCode:: 500, Message:: User with this email already exists.
+2024-07-05 02:54:48 info: [0mPOST /updateProfile [31m500[0m 49.585 ms - 152[0m
+2024-07-05 02:55:18 info: [0mPOST /updateProfile [32m200[0m 20.113 ms - 146[0m
+2024-07-05 02:55:28 info: [0mPOST /updateProfile [32m200[0m 492.279 ms - 146[0m
+2024-07-05 02:55:39 error: [POST] /updateProfile >> StatusCode:: 400, Message:: phone should not be empty
+2024-07-05 02:55:39 info: [0mPOST /updateProfile [33m400[0m 2.827 ms - 39[0m
+2024-07-05 02:55:44 info: [0mPOST /updateProfile [32m200[0m 5.404 ms - 146[0m
+2024-07-05 02:56:00 info: [0mPOST /changePassword [33m409[0m 3.800 ms - 133[0m
+2024-07-05 02:56:00 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 03:00:40 info: =================================
+2024-07-05 03:00:40 info: ======= ENV: development =======
+2024-07-05 03:00:40 info: 🚀 App listening on the port 3000
+2024-07-05 03:00:40 info: =================================
+2024-07-05 03:00:42 info: [0mPOST /changePassword [33m409[0m 128.828 ms - 134[0m
+2024-07-05 03:00:42 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:01:22 info: [0mPOST /changePassword [33m409[0m 6.168 ms - 133[0m
+2024-07-05 03:01:22 error: [POST] /changePassword >> StatusCode:: 500, Message:: User don't exist.
+2024-07-05 03:01:31 info: [0mPOST /changePassword [33m409[0m 3.916 ms - 134[0m
+2024-07-05 03:01:31 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:02:06 info: [0mPOST /changePassword [33m409[0m 3.796 ms - 134[0m
+2024-07-05 03:02:06 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:02:44 info: =================================
+2024-07-05 03:02:44 info: ======= ENV: development =======
+2024-07-05 03:02:44 info: 🚀 App listening on the port 3000
+2024-07-05 03:02:44 info: =================================
+2024-07-05 03:02:49 info: [0mPOST /changePassword [33m409[0m 44.923 ms - 134[0m
+2024-07-05 03:02:49 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:03:01 info: =================================
+2024-07-05 03:03:01 info: ======= ENV: development =======
+2024-07-05 03:03:01 info: 🚀 App listening on the port 3000
+2024-07-05 03:03:01 info: =================================
+2024-07-05 03:03:04 info: [0mPOST /changePassword [33m409[0m 41.608 ms - 134[0m
+2024-07-05 03:03:04 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:03:22 info: [0mPOST /changePassword [32m200[0m 23.952 ms - 174[0m
+2024-07-05 03:03:46 info: =================================
+2024-07-05 03:03:46 info: ======= ENV: development =======
+2024-07-05 03:03:46 info: 🚀 App listening on the port 3000
+2024-07-05 03:03:46 info: =================================
+2024-07-05 03:03:48 info: [0mPOST /changePassword [33m409[0m 40.364 ms - 134[0m
+2024-07-05 03:03:48 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 03:12:06 info: =================================
+2024-07-05 03:12:06 info: ======= ENV: development =======
+2024-07-05 03:12:06 info: 🚀 App listening on the port 3000
+2024-07-05 03:12:06 info: =================================
+2024-07-05 03:15:34 info: =================================
+2024-07-05 03:15:34 info: ======= ENV: development =======
+2024-07-05 03:15:34 info: 🚀 App listening on the port 3000
+2024-07-05 03:15:34 info: =================================
+2024-07-05 03:15:39 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 03:15:39 info: [0mPOST /login [31m500[0m 46.751 ms - 144[0m
+2024-07-05 03:15:47 info: [0mPOST /login [32m200[0m 3610.766 ms - 162[0m
+2024-07-05 03:16:20 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwabu@gmail.com not found.
+2024-07-05 03:16:20 info: [0mPOST /login [31m500[0m 2.920 ms - 150[0m
+2024-07-05 03:17:05 info: =================================
+2024-07-05 03:17:05 info: ======= ENV: development =======
+2024-07-05 03:17:05 info: 🚀 App listening on the port 3000
+2024-07-05 03:17:05 info: =================================
+2024-07-05 03:17:07 error: [POST] /login >> StatusCode:: 500, Message:: Email "bajwabu@gmail.com" not found.
+2024-07-05 03:17:07 info: [0mPOST /login [31m500[0m 44.421 ms - 154[0m
+2024-07-05 03:17:18 info: =================================
+2024-07-05 03:17:18 info: ======= ENV: development =======
+2024-07-05 03:17:18 info: 🚀 App listening on the port 3000
+2024-07-05 03:17:18 info: =================================
+2024-07-05 03:17:18 error: [POST] /login >> StatusCode:: 500, Message:: Email 'bajwabu@gmail.com' not found.
+2024-07-05 03:17:18 info: [0mPOST /login [31m500[0m 39.344 ms - 152[0m
+2024-07-05 03:17:49 info: =================================
+2024-07-05 03:17:49 info: ======= ENV: development =======
+2024-07-05 03:17:49 info: 🚀 App listening on the port 3000
+2024-07-05 03:17:49 info: =================================
+2024-07-05 03:18:06 info: =================================
+2024-07-05 03:18:06 info: ======= ENV: development =======
+2024-07-05 03:18:06 info: 🚀 App listening on the port 3000
+2024-07-05 03:18:06 info: =================================
+2024-07-05 03:18:11 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwabu@gmail.com not found.
+2024-07-05 03:18:11 info: [0mPOST /login [31m500[0m 32.118 ms - 150[0m
+2024-07-05 03:18:18 info: [0mPOST /login [32m200[0m 2989.889 ms - 199[0m
+2024-07-05 03:18:25 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Email or Password.
+2024-07-05 03:18:25 info: [0mPOST /login [31m500[0m 5.201 ms - 144[0m
+2024-07-05 03:18:45 info: =================================
+2024-07-05 03:18:45 info: ======= ENV: development =======
+2024-07-05 03:18:45 info: 🚀 App listening on the port 3000
+2024-07-05 03:18:45 info: =================================
+2024-07-05 03:19:09 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:19:09 info: [0mPOST /login [31m500[0m 34.705 ms - 135[0m
+2024-07-05 03:20:25 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:20:25 info: [0mPOST /login [31m500[0m 7.989 ms - 135[0m
+2024-07-05 03:20:32 info: [0mPOST /login [32m200[0m 2801.109 ms - 199[0m
+2024-07-05 03:21:53 info: =================================
+2024-07-05 03:21:53 info: ======= ENV: development =======
+2024-07-05 03:21:53 info: 🚀 App listening on the port 3000
+2024-07-05 03:21:53 info: =================================
+2024-07-05 03:23:02 info: =================================
+2024-07-05 03:23:02 info: ======= ENV: development =======
+2024-07-05 03:23:02 info: 🚀 App listening on the port 3000
+2024-07-05 03:23:02 info: =================================
+2024-07-05 03:23:07 info: [0mPOST /login [32m200[0m 2703.289 ms - 212[0m
+2024-07-05 03:24:22 info: =================================
+2024-07-05 03:24:22 info: ======= ENV: development =======
+2024-07-05 03:24:22 info: 🚀 App listening on the port 3000
+2024-07-05 03:24:22 info: =================================
+2024-07-05 03:24:28 info: [0mPOST /login [32m200[0m 3919.542 ms - 211[0m
+2024-07-05 03:30:07 info: =================================
+2024-07-05 03:30:07 info: ======= ENV: development =======
+2024-07-05 03:30:07 info: 🚀 App listening on the port 3000
+2024-07-05 03:30:07 info: =================================
+2024-07-05 03:32:24 info: =================================
+2024-07-05 03:32:24 info: ======= ENV: development =======
+2024-07-05 03:32:24 info: 🚀 App listening on the port 3000
+2024-07-05 03:32:24 info: =================================
+2024-07-05 03:33:05 info: =================================
+2024-07-05 03:33:05 info: ======= ENV: development =======
+2024-07-05 03:33:05 info: 🚀 App listening on the port 3000
+2024-07-05 03:33:05 info: =================================
+2024-07-05 03:45:59 info: =================================
+2024-07-05 03:45:59 info: ======= ENV: development =======
+2024-07-05 03:45:59 info: 🚀 App listening on the port 3000
+2024-07-05 03:45:59 info: =================================
+2024-07-05 03:46:13 info: [0mPOST /login [32m200[0m 3003.238 ms - 211[0m
+2024-07-05 03:46:22 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwab4u@gail.com not found.
+2024-07-05 03:46:22 info: [0mPOST /login [31m500[0m 4.050 ms - 150[0m
+2024-07-05 03:46:32 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 03:46:32 info: [0mPOST /login [31m500[0m 3.473 ms - 135[0m
+2024-07-05 03:48:09 info: =================================
+2024-07-05 03:48:09 info: ======= ENV: development =======
+2024-07-05 03:48:09 info: 🚀 App listening on the port 3000
+2024-07-05 03:48:09 info: =================================
+2024-07-05 03:48:56 info: =================================
+2024-07-05 03:48:56 info: ======= ENV: development =======
+2024-07-05 03:48:56 info: 🚀 App listening on the port 3000
+2024-07-05 03:48:56 info: =================================
+2024-07-05 03:48:57 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
+2024-07-05 03:48:57 info: [0mPOST /verifyOtp [31m500[0m 35.619 ms - 130[0m
+2024-07-05 03:49:48 info: =================================
+2024-07-05 03:49:48 info: ======= ENV: development =======
+2024-07-05 03:49:48 info: 🚀 App listening on the port 3000
+2024-07-05 03:49:48 info: =================================
+2024-07-05 03:49:48 info: [0mPOST /verifyOtp [33m409[0m 45.747 ms - 130[0m
+2024-07-05 03:49:50 info: [0mPOST /verifyOtp [33m409[0m 3.833 ms - 130[0m
+2024-07-05 03:50:08 info: =================================
+2024-07-05 03:50:08 info: ======= ENV: development =======
+2024-07-05 03:50:08 info: 🚀 App listening on the port 3000
+2024-07-05 03:50:08 info: =================================
+2024-07-05 03:50:15 info: =================================
+2024-07-05 03:50:15 info: ======= ENV: development =======
+2024-07-05 03:50:15 info: 🚀 App listening on the port 3000
+2024-07-05 03:50:15 info: =================================
+2024-07-05 03:50:25 info: [0mPOST /verifyOtp [33m409[0m 32.824 ms - 130[0m
+2024-07-05 03:50:47 info: [0mPOST /verifyOtp [32m200[0m 4.843 ms - 356[0m
+2024-07-05 03:51:47 info: [0mPOST /resendOtp [32m200[0m 2925.609 ms - 171[0m
+2024-07-05 03:52:47 info: =================================
+2024-07-05 03:52:47 info: ======= ENV: development =======
+2024-07-05 03:52:47 info: 🚀 App listening on the port 3000
+2024-07-05 03:52:47 info: =================================
+2024-07-05 03:53:32 info: =================================
+2024-07-05 03:53:32 info: ======= ENV: development =======
+2024-07-05 03:53:32 info: 🚀 App listening on the port 3000
+2024-07-05 03:53:32 info: =================================
+2024-07-05 03:53:37 info: [0mPOST /resendOtp [32m200[0m 2977.713 ms - 221[0m
+2024-07-05 03:53:45 error: [POST] /resendOtp >> StatusCode:: 500, Message:: Email bajwab4u@gmil.com not found.
+2024-07-05 03:53:45 info: [0mPOST /resendOtp [31m500[0m 8.224 ms - 150[0m
+2024-07-05 03:54:27 info: [0mPOST /resetPasswordEmail [33m404[0m 1.435 ms - 158[0m
+2024-07-05 03:54:39 info: [0mPOST /resetPassword [32m200[0m 2833.274 ms - 186[0m
+2024-07-05 03:55:22 info: =================================
+2024-07-05 03:55:22 info: ======= ENV: development =======
+2024-07-05 03:55:22 info: 🚀 App listening on the port 3000
+2024-07-05 03:55:22 info: =================================
+2024-07-05 03:57:10 info: =================================
+2024-07-05 03:57:10 info: ======= ENV: development =======
+2024-07-05 03:57:10 info: 🚀 App listening on the port 3000
+2024-07-05 03:57:10 info: =================================
+2024-07-05 03:57:22 info: [0mPOST /sendResetPasswordLink [32m200[0m 2851.197 ms - 186[0m
+2024-07-05 04:00:05 info: =================================
+2024-07-05 04:00:05 info: ======= ENV: development =======
+2024-07-05 04:00:05 info: 🚀 App listening on the port 3000
+2024-07-05 04:00:05 info: =================================
+2024-07-05 04:00:08 info: [0mPOST /sendResetPasswordLink [32m200[0m 2890.313 ms - 163[0m
+2024-07-05 04:00:21 info: =================================
+2024-07-05 04:00:21 info: ======= ENV: development =======
+2024-07-05 04:00:21 info: 🚀 App listening on the port 3000
+2024-07-05 04:00:21 info: =================================
+2024-07-05 04:00:30 info: [0mPOST /sendResetPasswordLink [32m200[0m 2931.818 ms - 237[0m
+2024-07-05 04:00:55 info: [0mPOST /login [33m409[0m 4.985 ms - 135[0m
+2024-07-05 04:01:03 info: [0mPOST /login [32m200[0m 2817.153 ms - 211[0m
+2024-07-05 04:01:34 info: =================================
+2024-07-05 04:01:34 info: ======= ENV: development =======
+2024-07-05 04:01:34 info: 🚀 App listening on the port 3000
+2024-07-05 04:01:34 info: =================================
+2024-07-05 04:01:47 info: =================================
+2024-07-05 04:01:47 info: ======= ENV: development =======
+2024-07-05 04:01:47 info: 🚀 App listening on the port 3000
+2024-07-05 04:01:47 info: =================================
+2024-07-05 04:02:01 info: =================================
+2024-07-05 04:02:01 info: ======= ENV: development =======
+2024-07-05 04:02:01 info: 🚀 App listening on the port 3000
+2024-07-05 04:02:01 info: =================================
+2024-07-05 04:02:27 info: [0mPOST /resendOtp [32m200[0m 3120.232 ms - 221[0m
+2024-07-05 04:02:46 info: =================================
+2024-07-05 04:02:46 info: ======= ENV: development =======
+2024-07-05 04:02:46 info: 🚀 App listening on the port 3000
+2024-07-05 04:02:46 info: =================================
+2024-07-05 04:03:27 info: =================================
+2024-07-05 04:03:27 info: ======= ENV: development =======
+2024-07-05 04:03:27 info: 🚀 App listening on the port 3000
+2024-07-05 04:03:27 info: =================================
+2024-07-05 04:05:15 info: =================================
+2024-07-05 04:05:15 info: ======= ENV: development =======
+2024-07-05 04:05:15 info: 🚀 App listening on the port 3000
+2024-07-05 04:05:15 info: =================================
+2024-07-05 04:05:20 info: [0mPOST /sendResetPasswordLink [32m200[0m 3496.863 ms - 237[0m
+2024-07-05 04:05:51 info: =================================
+2024-07-05 04:05:51 info: ======= ENV: development =======
+2024-07-05 04:05:51 info: 🚀 App listening on the port 3000
+2024-07-05 04:05:51 info: =================================
+2024-07-05 04:07:37 info: =================================
+2024-07-05 04:07:37 info: ======= ENV: development =======
+2024-07-05 04:07:37 info: 🚀 App listening on the port 3000
+2024-07-05 04:07:37 info: =================================
+2024-07-05 04:08:53 info: =================================
+2024-07-05 04:08:53 info: ======= ENV: development =======
+2024-07-05 04:08:53 info: 🚀 App listening on the port 3000
+2024-07-05 04:08:53 info: =================================
+2024-07-05 04:18:39 info: =================================
+2024-07-05 04:18:39 info: ======= ENV: development =======
+2024-07-05 04:18:39 info: 🚀 App listening on the port 3000
+2024-07-05 04:18:39 info: =================================
+2024-07-05 04:22:08 info: =================================
+2024-07-05 04:22:08 info: ======= ENV: development =======
+2024-07-05 04:22:08 info: 🚀 App listening on the port 3000
+2024-07-05 04:22:08 info: =================================
+2024-07-05 04:22:43 info: [0mPOST /updateProfile [32m200[0m 49.025 ms - 166[0m
+2024-07-05 04:23:48 info: =================================
+2024-07-05 04:23:48 info: ======= ENV: development =======
+2024-07-05 04:23:48 info: 🚀 App listening on the port 3000
+2024-07-05 04:23:48 info: =================================
+2024-07-05 04:23:48 info: [0mPOST /updateProfile [32m200[0m 53.807 ms - 195[0m
+2024-07-05 04:23:50 info: [0mPOST /updateProfile [32m200[0m 5.953 ms - 195[0m
+2024-07-05 04:30:20 info: =================================
+2024-07-05 04:30:20 info: ======= ENV: development =======
+2024-07-05 04:30:20 info: 🚀 App listening on the port 3000
+2024-07-05 04:30:20 info: =================================
+2024-07-05 04:30:21 info: [0mPOST /updateProfile [32m200[0m 41.153 ms - 166[0m
+2024-07-05 04:30:24 info: [0mPOST /updateProfile [32m200[0m 7.966 ms - 166[0m
+2024-07-05 04:30:59 info: =================================
+2024-07-05 04:30:59 info: ======= ENV: development =======
+2024-07-05 04:30:59 info: 🚀 App listening on the port 3000
+2024-07-05 04:30:59 info: =================================
+2024-07-05 04:31:09 info: =================================
+2024-07-05 04:31:09 info: ======= ENV: development =======
+2024-07-05 04:31:09 info: 🚀 App listening on the port 3000
+2024-07-05 04:31:09 info: =================================
+2024-07-05 04:31:12 info: [0mPOST /updateProfile [32m200[0m 50.446 ms - 166[0m
+2024-07-05 04:31:47 info: =================================
+2024-07-05 04:31:47 info: ======= ENV: development =======
+2024-07-05 04:31:47 info: 🚀 App listening on the port 3000
+2024-07-05 04:31:47 info: =================================
+2024-07-05 04:31:48 info: [0mPOST /updateProfile [32m200[0m 68.999 ms - 166[0m
+2024-07-05 04:31:53 info: [0mPOST /updateProfile [32m200[0m 24.022 ms - 166[0m
+2024-07-05 04:33:58 info: =================================
+2024-07-05 04:33:58 info: ======= ENV: development =======
+2024-07-05 04:33:58 info: 🚀 App listening on the port 3000
+2024-07-05 04:33:58 info: =================================
+2024-07-05 04:34:19 info: [0mPOST /updateProfile [32m200[0m 62.642 ms - 195[0m
+2024-07-05 04:34:39 info: [0mPOST /updateProfile [32m200[0m 6.754 ms - 198[0m
+2024-07-05 04:38:24 info: =================================
+2024-07-05 04:38:24 info: ======= ENV: development =======
+2024-07-05 04:38:24 info: 🚀 App listening on the port 3000
+2024-07-05 04:38:24 info: =================================
+2024-07-05 04:38:26 info: [0mPOST /changePassword [33m409[0m 31.632 ms - 134[0m
+2024-07-05 04:38:26 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 04:38:34 info: [0mPOST /changePassword [32m200[0m 12.595 ms - 165[0m
+2024-07-05 04:38:44 info: =================================
+2024-07-05 04:38:44 info: ======= ENV: development =======
+2024-07-05 04:38:44 info: 🚀 App listening on the port 3000
+2024-07-05 04:38:44 info: =================================
+2024-07-05 04:38:46 info: [0mPOST /changePassword [32m200[0m 37.634 ms - 226[0m
+2024-07-05 04:38:49 info: [0mPOST /changePassword [32m200[0m 5.253 ms - 226[0m
+2024-07-05 04:39:57 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 04:39:57 info: [0mPOST /organizationSignup [33m400[0m 4.957 ms - 36[0m
+2024-07-05 04:42:33 info: =================================
+2024-07-05 04:42:33 info: ======= ENV: development =======
+2024-07-05 04:42:33 info: 🚀 App listening on the port 3000
+2024-07-05 04:42:33 info: =================================
+2024-07-05 04:44:30 info: =================================
+2024-07-05 04:44:30 info: ======= ENV: development =======
+2024-07-05 04:44:30 info: 🚀 App listening on the port 3000
+2024-07-05 04:44:30 info: =================================
+2024-07-05 04:44:31 info: [0mPOST /changePassword [32m200[0m 33.816 ms - 226[0m
+2024-07-05 04:44:35 info: [0mPOST /changePassword [33m409[0m 4.364 ms - 134[0m
+2024-07-05 04:44:35 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 04:44:49 info: [0mPOST /changePassword [32m200[0m 6.212 ms - 226[0m
+2024-07-05 04:46:37 info: =================================
+2024-07-05 04:46:37 info: ======= ENV: development =======
+2024-07-05 04:46:37 info: 🚀 App listening on the port 3000
+2024-07-05 04:46:37 info: =================================
