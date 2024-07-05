@@ -797,3 +797,4 @@ RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
 2024-07-05 04:38:26 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
 2024-07-05 04:39:57 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
 2024-07-05 04:44:35 error: [POST] /changePassword >> StatusCode:: 500, Message:: Incorrect Password
+2024-07-05 04:46:39 error: [POST] /changePassword >> StatusCode:: 500, Message:: Old and new shouldn't be same.
