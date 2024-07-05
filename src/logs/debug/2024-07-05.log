@@ -996,3 +996,13 @@
 2024-07-05 04:46:39 info: [0mPOST /changePassword [33m409[0m 118.167 ms - 146[0m
 2024-07-05 04:46:39 error: [POST] /changePassword >> StatusCode:: 500, Message:: Old and new shouldn't be same.
 2024-07-05 04:46:47 info: [0mPOST /changePassword [32m200[0m 12.234 ms - 226[0m
+2024-07-05 05:09:35 info: =================================
+2024-07-05 05:09:35 info: ======= ENV: development =======
+2024-07-05 05:09:35 info: 🚀 App listening on the port 3000
+2024-07-05 05:09:35 info: =================================
+2024-07-05 05:32:21 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 05:32:21 info: [0mPOST /login [31m500[0m 69.184 ms - 135[0m
+2024-07-05 06:05:04 info: =================================
+2024-07-05 06:05:04 info: ======= ENV: development =======
+2024-07-05 06:05:04 info: 🚀 App listening on the port 3000
+2024-07-05 06:05:04 info: =================================

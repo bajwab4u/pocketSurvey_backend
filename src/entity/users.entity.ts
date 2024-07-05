@@ -52,4 +52,9 @@ export class UserEntity implements User {
     nullable: true,
   })
   otp: string;
+
+  @Column({
+    nullable: true,
+  })
+  isTwoFactorAuthEnabled: string;
 }
