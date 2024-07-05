@@ -1006,3 +1006,9 @@
 2024-07-05 06:05:04 info: ======= ENV: development =======
 2024-07-05 06:05:04 info: 🚀 App listening on the port 3000
 2024-07-05 06:05:04 info: =================================
+2024-07-05 06:19:44 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 06:19:44 info: [0mPOST /login [31m500[0m 39.965 ms - 135[0m
+2024-07-05 06:31:56 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 06:31:56 info: [0mPOST /login [31m500[0m 6.528 ms - 135[0m
+2024-07-05 06:38:18 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 06:38:18 info: [0mPOST /organizationSignup [33m400[0m 3.149 ms - 36[0m
