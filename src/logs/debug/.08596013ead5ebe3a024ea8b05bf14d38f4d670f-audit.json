@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\debug\\.08596013ead5ebe3a024ea8b05bf14d38f4d670f-audit.json",
+    "files": [
+        {
+            "date": 1720125360899,
+            "name": "D:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\debug\\2024-07-05.log",
+            "hash": "c08c2bf5281b1bac72d1ce7dc02eb960a7c2529575cb7497d03f74150350fe36"
+        }
+    ],
+    "hashType": "sha256"
+}

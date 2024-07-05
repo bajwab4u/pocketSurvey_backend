@@ -1,12 +1,10 @@
-import { IsEnum, IsNotEmpty } from 'class-validator';
-import { Entity, PrimaryGeneratedColumn, Column, Unique } from 'typeorm';
-import { User } from '@interfaces/users.interface';
+import { IsEnum, IsNotEmpty } from "class-validator";
+import { Entity, PrimaryGeneratedColumn, Column, Unique } from "typeorm";
+import { User } from "@interfaces/users.interface";
 
 @Entity()
-@Unique(['email'])
+@Unique(["email"])
 export class UserEntity implements User {
-
-
   @PrimaryGeneratedColumn()
   id: number;
 
@@ -17,15 +15,13 @@ export class UserEntity implements User {
 
   @Column({
     nullable: false,
- })
+  })
   email: string;
-
 
   @Column({
     nullable: false,
   })
   password: string;
-
 
   @Column({
     nullable: true,
@@ -56,7 +52,4 @@ export class UserEntity implements User {
     nullable: true,
   })
   otp: string;
-
-  
-
 }

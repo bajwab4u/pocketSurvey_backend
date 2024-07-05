@@ -1,24 +1,34 @@
-import {  IsEmail, IsNotEmpty, IsString, Validate, ValidationArguments, ValidatorConstraint, ValidatorConstraintInterface } from 'class-validator';
-
+import {
+  IsEmail,
+  IsNotEmpty,
+  IsString,
+  Validate,
+  ValidationArguments,
+  ValidatorConstraint,
+  ValidatorConstraintInterface,
+} from "class-validator";
 
 export class userLogin_Dto {
   @IsNotEmpty()
   @IsEmail()
   public email: string;
-  
+
   @IsNotEmpty()
   @IsString()
   public password: string;
-
 }
 
-export class resetPasswordEmail_Dto {
+export class userLogout_Dto {
+  @IsNotEmpty()
+  @IsEmail()
+  public userId: any;
+}
+
+export class resetPassword_Dto {
   @IsNotEmpty()
   @IsEmail()
   public email: string;
-  
 }
-
 
 export class verifyOtp_Dto {
   @IsNotEmpty()
@@ -28,18 +38,15 @@ export class verifyOtp_Dto {
   @IsNotEmpty()
   @IsEmail()
   public email: string;
-  
 }
 
 export class resendOtp_Dto {
   @IsNotEmpty()
   @IsEmail()
   public email: string;
-  
 }
 
-
-@ValidatorConstraint({ name: 'customText', async: false })
+@ValidatorConstraint({ name: "customText", async: false })
 export class PasswordMatchConstraint implements ValidatorConstraintInterface {
   validate(value: any, args: ValidationArguments) {
     const object = args.object as any;
@@ -47,11 +54,9 @@ export class PasswordMatchConstraint implements ValidatorConstraintInterface {
   }
 
   defaultMessage(args: ValidationArguments) {
-    return 'Passwords do not match';
+    return "Passwords do not match";
   }
 }
-
-
 
 export class organizationSignup_Dto {
   @IsNotEmpty()
@@ -73,12 +78,11 @@ export class organizationSignup_Dto {
   @IsNotEmpty()
   @IsString()
   @Validate(PasswordMatchConstraint, {
-    message: 'Passwords do not match',
+    message: "Passwords do not match",
   })
   public confirmPassword: string;
 
   @IsNotEmpty()
   @IsString()
   public webAddress: string;
-
 }
