@@ -6,6 +6,7 @@ import {
   organizationSignup_Dto,
   verifyOtp_Dto,
   resendOtp_Dto,
+  sendResetPassword_Dto,
 } from "@dtos/auth.dto";
 import { Routes } from "@interfaces/routes.interface";
 import authMiddleware from "@middlewares/auth.middleware";
@@ -44,9 +45,19 @@ class AuthRoute implements Routes {
     );
     this.router.post(
       `${this.path}sendResetPasswordLink`,
-      validationMiddleware(resetPassword_Dto, "body"),
+      validationMiddleware(sendResetPassword_Dto, "body"),
       this.authController.sendResetPasswordLink
     );
+
+    this.router.post(
+      `${this.path}resetPassword`,
+      [
+        validationMiddleware(resetPassword_Dto, "body"),
+        jwtAuthenticationMiddleware,
+      ],
+      this.authController.resetPassword
+    );
+
     this.router.post(
       `${this.path}signout`,
       jwtAuthenticationMiddleware,

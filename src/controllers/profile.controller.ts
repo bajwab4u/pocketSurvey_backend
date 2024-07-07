@@ -25,10 +25,10 @@ class ProfileController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email,
-            role:user.role || null
-          }
+          user: {
+            email: user.email,
+            role: user.role || null,
+          },
         },
         pagination: {
           paginationEnabled: false,
@@ -73,10 +73,10 @@ class ProfileController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email,
-            role:user.role
-          }
+          user: {
+            email: user.email,
+            role: user.role,
+          },
         },
         pagination: {
           paginationEnabled: false,

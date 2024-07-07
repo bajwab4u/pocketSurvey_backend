@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import {
   organizationSignup_Dto,
   resetPassword_Dto,
+  sendResetPassword_Dto,
   userLogin_Dto,
   userLogout_Dto,
   verifyOtp_Dto,
@@ -19,25 +20,31 @@ class AuthController {
   ): Promise<void> => {
     try {
       const userData: userLogin_Dto = req.body;
-      const { user } = await this.authService.login(userData);
+      const { user, msg, token, cookie } = await this.authService.login(
+        userData
+      );
 
       const response: ResponseInterface = {
         status: {
           result: "Success",
-          message: `A verification OTP has been sent to ${user.email}.`,
+          message: msg,
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email
-          }
-          
+          user: {
+            email: user.email,
+            isTwoFactorAuthEnabled: user.isTwoFactorAuthEnabled,
+          },
         },
         pagination: {
           paginationEnabled: false,
         },
       };
-
+      if (user.isTwoFactorAuthEnabled == false) {
+        response.data.authToken =
+          user.isTwoFactorAuthEnabled == false ? token : null;
+        res.setHeader("Set-Cookie", [cookie]);
+      }
       res.status(200).json(response);
     } catch (error) {
       const errorResponse: ResponseInterface = {
@@ -46,9 +53,7 @@ class AuthController {
           message: error.message,
           tokenExpired: false,
         },
-        data: {
-
-        },
+        data: {},
         pagination: {
           paginationEnabled: false,
         },
@@ -68,7 +73,9 @@ class AuthController {
   ): Promise<void> => {
     try {
       const requestData: verifyOtp_Dto = req.body;
-      const { cookie, token , user } = await this.authService.verifyOtp(requestData);
+      const { cookie, token, user } = await this.authService.verifyOtp(
+        requestData
+      );
       const response: ResponseInterface = {
         status: {
           result: "Success",
@@ -76,11 +83,11 @@ class AuthController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email,
-            role:user.role || null
+          user: {
+            email: user.email,
+            role: user.role || null,
           },
-          token: token,
+          authToken: token,
         },
         pagination: {
           paginationEnabled: false,
@@ -123,9 +130,9 @@ class AuthController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email
-          }
+          user: {
+            email: user.email,
+          },
         },
         pagination: {
           paginationEnabled: false,
@@ -166,9 +173,9 @@ class AuthController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email
-          }
+          user: {
+            email: user.email,
+          },
         },
         pagination: {
           paginationEnabled: false,
@@ -200,7 +207,7 @@ class AuthController {
     next: NextFunction
   ): Promise<void> => {
     try {
-      const userData: resetPassword_Dto = req.body;
+      const userData: sendResetPassword_Dto = req.body;
       const { user } = await this.authService.sendResetPasswordLink(userData);
       const response: ResponseInterface = {
         status: {
@@ -209,15 +216,66 @@ class AuthController {
           tokenExpired: false,
         },
         data: {
-          user:{
-            email:user.email
-          }
+          user: {
+            email: user.email,
+          },
         },
         pagination: {
           paginationEnabled: false,
         },
       };
 
+      res.status(200).json(response);
+    } catch (error) {
+      const errorResponse: ResponseInterface = {
+        status: {
+          result: "Failure",
+          message: error.message,
+          tokenExpired: false,
+        },
+        data: {},
+        pagination: {
+          paginationEnabled: false,
+        },
+      };
+      const statusCode = (error as any).errorCode;
+
+      res.status(statusCode).json(errorResponse);
+      next(error);
+    }
+  };
+
+  public resetPassword = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<void> => {
+    console.log(req);
+    console.log(req["user"].id);
+
+    try {
+      const requestData: resetPassword_Dto = req.body;
+      const userId = req["user"].id;
+      const { user } = await this.authService.resetPassword(
+        userId,
+        requestData
+      );
+      const response: ResponseInterface = {
+        status: {
+          result: "Success",
+          message: `${user.email} password has been changed successfully.`,
+          tokenExpired: false,
+        },
+        data: {
+          user: {
+            email: user.email,
+            role: user.role,
+          },
+        },
+        pagination: {
+          paginationEnabled: false,
+        },
+      };
       res.status(200).json(response);
     } catch (error) {
       const errorResponse: ResponseInterface = {

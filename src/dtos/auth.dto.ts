@@ -24,10 +24,20 @@ export class userLogout_Dto {
   public userId: any;
 }
 
-export class resetPassword_Dto {
+export class sendResetPassword_Dto {
   @IsNotEmpty()
   @IsEmail()
   public email: string;
+}
+
+export class resetPassword_Dto {
+  @IsNotEmpty()
+  @IsString()
+  public password: string;
+
+  @IsNotEmpty()
+  @IsString()
+  public confirmPassword: string;
 }
 
 export class verifyOtp_Dto {

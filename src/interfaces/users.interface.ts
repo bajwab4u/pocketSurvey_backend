@@ -2,6 +2,7 @@ export interface User {
   id: number;
   email: string;
   password: string;
-  otp:string;
-  role?:string;
+  otp: string;
+  role?: string;
+  isTwoFactorAuthEnabled?: boolean;
 }

@@ -14,23 +14,23 @@ securityDefinitions:
 paths:
   /login:
     post:
-      description: 'Return token for authorized users <br /> email: ***aaa@noeticworld.com*** <br /> password: ***q1w2e3r4***'
-      summary: ''
+      description: "Return token for authorized users <br /> email: ***aaa@noeticworld.com*** <br /> password: ***q1w2e3r4***"
+      summary: ""
       tags: [security]
       consumes:
-        - 'application/json'
+        - "application/json"
       parameters:
-        - name: 'login'
-          in: 'body'
+        - name: "login"
+          in: "body"
           required: true
-          description: 'Login Payload'
+          description: "Login Payload"
           schema:
-            $ref: '#/definitions/login'
+            $ref: "#/definitions/login"
       responses:
         200:
           description: Successful login
           schema:
-            $ref: '#/definitions/loginSuccess'
+            $ref: "#/definitions/loginSuccess"
         400:
           description: Bad Request
         404:

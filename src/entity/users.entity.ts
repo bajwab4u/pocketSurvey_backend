@@ -56,5 +56,5 @@ export class UserEntity implements User {
   @Column({
     nullable: true,
   })
-  isTwoFactorAuthEnabled: string;
+  isTwoFactorAuthEnabled: boolean;
 }

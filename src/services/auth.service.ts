@@ -6,6 +6,7 @@ import { getRepository } from "typeorm";
 import {
   organizationSignup_Dto,
   resetPassword_Dto,
+  sendResetPassword_Dto,
   userLogin_Dto,
   verifyOtp_Dto,
 } from "@dtos/auth.dto";
@@ -27,7 +28,37 @@ class AuthService {
     },
   });
 
-  public async login(userData: userLogin_Dto): Promise<{ user: User }> {
+  public async resetPassword(
+    userId: any,
+    requestData: resetPassword_Dto
+  ): Promise<{ user: User }> {
+    if (isEmpty(requestData)) {
+      const error: Error = new Error(`Not Valid User Data.`);
+      (error as any).errorCode = 404;
+      throw error;
+    }
+
+    const userRepository = getRepository(this.users);
+    const findUser: User = await userRepository.findOne({
+      where: { id: userId },
+    });
+
+    if (!findUser) {
+      const error: Error = new Error(`User don't exist.`);
+      (error as any).errorCode = 409;
+      throw error;
+    }
+
+    await userRepository.update(findUser.id, {
+      password: requestData.confirmPassword,
+    });
+
+    return { user: findUser };
+  }
+
+  public async login(
+    userData: userLogin_Dto
+  ): Promise<{ user: User; msg: string; token?: TokenData; cookie?: string }> {
     if (isEmpty(userData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -52,6 +83,17 @@ class AuthService {
       throw error;
     }
 
+    if (findUser.isTwoFactorAuthEnabled == false) {
+      const tokenData = this.createToken(findUser);
+      const cookie = this.createCookie(tokenData);
+      return {
+        user: findUser,
+        msg: `${findUser.email} loggedIn successfully`,
+        token: tokenData,
+        cookie: cookie,
+      };
+    }
+
     const otp = this.generateRandomOtp();
     await userRepository.update(findUser.id, { otp: otp });
     const info = await this.transporter.sendMail({
@@ -61,12 +103,13 @@ class AuthService {
       text: `Your Verification OTP is ${otp}.`,
       html: "",
     });
-    return { user: findUser };
+    return {
+      user: findUser,
+      msg: `A verification OTP has been sent to ${findUser.email}.`,
+    };
   }
 
-  public async resendOtp(
-    requestData: userLogin_Dto
-  ): Promise<{ user: User }> {
+  public async resendOtp(requestData: userLogin_Dto): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -97,7 +140,7 @@ class AuthService {
 
   public async verifyOtp(
     requestData: verifyOtp_Dto
-  ): Promise<{ cookie: string; token: TokenData,user:User }> {
+  ): Promise<{ cookie: string; token: TokenData; user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
       (error as any).errorCode = 404;
@@ -124,7 +167,7 @@ class AuthService {
     const tokenData = this.createToken(findUser);
     const cookie = this.createCookie(tokenData);
 
-    return { cookie, token: tokenData , user:findUser };
+    return { cookie, token: tokenData, user: findUser };
   }
 
   public async organizationSignup(
@@ -173,7 +216,7 @@ class AuthService {
   }
 
   public async sendResetPasswordLink(
-    requestData: resetPassword_Dto
+    requestData: sendResetPassword_Dto
   ): Promise<{ user: User }> {
     if (isEmpty(requestData)) {
       const error: Error = new Error(`Not Valid User Data.`);
@@ -190,12 +233,17 @@ class AuthService {
       (error as any).errorCode = 404;
       throw error;
     }
+    const tokenData = this.createToken(findUser);
+    const url = `http://localhost:4200/resetPassword?token=${encodeURIComponent(
+      tokenData.token
+    )}`;
+    console.log(url);
     const info = await this.transporter.sendMail({
       from: '"Pocket Survey" <beyondsolutions051@gmail.com>',
       to: requestData.email,
       subject: "Reset Account Password",
-      text: "Click on the Link to reset the Password !",
-      html: "<p> This <a href='https://pocketsurvey.co/'>link</a> will expire in 10 mins.</p>",
+      text: `Your reset password link is "${url}". This link will expire in 10mins.`,
+      html: `<p> Your reset password link is <a href='${url}'>link</a>. This link will expire in 10 mins.</p>`,
     });
 
     return { user: findUser };
