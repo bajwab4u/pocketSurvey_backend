@@ -335,3 +335,28 @@
 2024-07-07 23:20:41 info: ======= ENV: development =======
 2024-07-07 23:20:41 info: 🚀 App listening on the port 3000
 2024-07-07 23:20:41 info: =================================
+2024-07-07 23:20:46 info: [0mOPTIONS /resetPassword [32m204[0m 4.517 ms - 0[0m
+2024-07-07 23:20:46 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:20:46 info: [0mPOST /resetPassword [33m401[0m 83.205 ms - 44[0m
+2024-07-07 23:21:22 info: [0mOPTIONS /resetPassword [32m204[0m 0.316 ms - 0[0m
+2024-07-07 23:21:22 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:21:22 info: [0mPOST /resetPassword [33m401[0m 6.964 ms - 44[0m
+2024-07-07 23:25:56 info: [0mOPTIONS /resetPassword [32m204[0m 0.693 ms - 0[0m
+2024-07-07 23:25:56 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:25:56 info: [0mPOST /resetPassword [33m401[0m 9.769 ms - 44[0m
+2024-07-07 23:27:32 info: [0mOPTIONS /resetPassword [32m204[0m 0.281 ms - 0[0m
+2024-07-07 23:27:32 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:27:32 info: [0mPOST /resetPassword [33m401[0m 12.704 ms - 44[0m
+2024-07-07 23:28:54 info: [0mOPTIONS /resetPassword [32m204[0m 4.785 ms - 0[0m
+2024-07-07 23:28:55 info: [0mPOST /resetPassword [32m200[0m 695.119 ms - 223[0m
+2024-07-07 23:32:03 info: [0mOPTIONS /resetPassword [32m204[0m 3.790 ms - 0[0m
+2024-07-07 23:32:03 info: [0mPOST /resetPassword [32m200[0m 280.611 ms - 223[0m
+2024-07-07 23:32:44 info: [0mOPTIONS /resetPassword [32m204[0m 0.456 ms - 0[0m
+2024-07-07 23:32:44 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:32:44 info: [0mPOST /resetPassword [33m401[0m 9.711 ms - 44[0m
+2024-07-07 23:33:42 info: [0mOPTIONS /resetPassword [32m204[0m 0.599 ms - 0[0m
+2024-07-07 23:33:42 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:33:42 info: [0mPOST /resetPassword [33m401[0m 12.224 ms - 44[0m
+2024-07-07 23:34:28 info: [0mOPTIONS /resetPassword [32m204[0m 0.204 ms - 0[0m
+2024-07-07 23:34:28 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:34:28 info: [0mPOST /resetPassword [33m401[0m 11.800 ms - 44[0m

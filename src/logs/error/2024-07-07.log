@@ -809,3 +809,10 @@ Error: listen EADDRINUSE: address already in use :::3000
     at Module.m._compile (D:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1371:23)
     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
     at Object.require.extensions.<computed> [as .ts] (D:\Pocket Survey\pocketSurvey_backend\node_modules\ts-node\src\index.ts:1374:12)
+2024-07-07 23:20:46 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:21:22 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:25:56 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:27:32 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:32:44 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:33:42 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
+2024-07-07 23:34:28 error: [POST] /resetPassword >> StatusCode:: 401, Message:: Wrong Jwt authentication token
