@@ -1,0 +1,53 @@
+2024-07-08 03:11:39 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 04:18:49 error: [POST] /sendResetPasswordLink >> StatusCode:: 400, Message:: email must be an email,email should not be empty
+2024-07-08 04:19:23 error: [POST] /sendResetPasswordLink >> StatusCode:: 400, Message:: email must be an email,email should not be empty
+2024-07-08 04:19:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:19:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:21:11 error: [POST] /sendResetPasswordLink >> StatusCode:: 400, Message:: email must be an email,email should not be empty
+2024-07-08 04:22:06 error: [POST] /sendResetPasswordLink >> StatusCode:: 500, Message:: Email a@a.com not found.
+2024-07-08 04:52:43 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:52:43 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:52:44 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:52:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:52:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 04:52:45 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:02:46 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:02:47 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:33:07 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:33:09 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:33:09 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:33:09 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:33:10 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 05:42:23 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 05:45:29 error: [POST] /verifyOtp >> StatusCode:: 500, Message:: Incorrect Otp.
+2024-07-08 05:54:28 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 06:53:08 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email,email should not be empty, password should not be empty
+2024-07-08 08:37:33 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-08 10:29:00 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:16 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:26 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:28 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:30 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:30 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:31 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:51 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:53 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:54 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:29:55 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:30:06 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:30:08 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:30:09 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:30:21 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-08 10:30:22 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.

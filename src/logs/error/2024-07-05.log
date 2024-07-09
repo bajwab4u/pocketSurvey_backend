@@ -802,3 +802,9 @@ RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
 2024-07-05 06:19:44 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
 2024-07-05 06:31:56 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
 2024-07-05 06:38:18 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 06:54:12 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 06:54:36 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 07:11:41 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 07:23:50 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 07:28:07 error: [POST] /organizationSignup >> StatusCode:: 500, Message:: User with email uabdullah204@gmail.com already exists.
+2024-07-05 07:30:16 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.

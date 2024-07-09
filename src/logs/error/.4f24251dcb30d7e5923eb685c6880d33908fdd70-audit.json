@@ -44,6 +44,16 @@
             "date": 1720173024025,
             "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-05.log",
             "hash": "c22f9e53b8b25c777c891cd39e0bf7d9bf91ed0550e572283642ec1a3ee8568f"
+        },
+        {
+            "date": 1720433344333,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-08.log",
+            "hash": "b871b9b89a5889448a7490f19f660046e9439f8a27a1b7b1ef7723a6856269e4"
+        },
+        {
+            "date": 1720529670684,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-09.log",
+            "hash": "54369450cd51df828f07f00418bc212984f99b54c933dea3afe9ac918d17540d"
         }
     ],
     "hashType": "sha256"

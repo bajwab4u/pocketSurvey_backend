@@ -1012,3 +1012,89 @@
 2024-07-05 06:31:56 info: [0mPOST /login [31m500[0m 6.528 ms - 135[0m
 2024-07-05 06:38:18 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
 2024-07-05 06:38:18 info: [0mPOST /organizationSignup [33m400[0m 3.149 ms - 36[0m
+2024-07-05 06:54:12 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 06:54:12 info: [0mPOST /organizationSignup [33m400[0m 2.754 ms - 36[0m
+2024-07-05 06:54:36 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 06:54:36 info: [0mPOST /organizationSignup [33m400[0m 4.973 ms - 36[0m
+2024-07-05 07:11:41 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 07:11:41 info: [0mPOST /organizationSignup [33m400[0m 2.682 ms - 36[0m
+2024-07-05 07:11:48 info: [0mPOST /organizationSignup [32m200[0m 70.033 ms - 213[0m
+2024-07-05 07:23:50 error: [POST] /organizationSignup >> StatusCode:: 400, Message:: Passwords do not match
+2024-07-05 07:23:50 info: [0mPOST /organizationSignup [33m400[0m 4.358 ms - 36[0m
+2024-07-05 07:27:50 info: [0mGET / [33m404[0m 26.334 ms - 139[0m
+2024-07-05 07:27:51 info: [0mGET / [33m404[0m 14.431 ms - 139[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs [36m301[0m 20.908 ms - 183[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs/ [36m304[0m 6.136 ms - -[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 11.251 ms - -[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 10.289 ms - -[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 10.143 ms - -[0m
+2024-07-05 07:27:55 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.944 ms - -[0m
+2024-07-05 07:27:56 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 2.353 ms - -[0m
+2024-07-05 07:28:07 error: [POST] /organizationSignup >> StatusCode:: 500, Message:: User with email uabdullah204@gmail.com already exists.
+2024-07-05 07:28:07 info: [0mPOST /organizationSignup [31m500[0m 24.380 ms - 170[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/ [36m304[0m 1.374 ms - -[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.694 ms - -[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.542 ms - -[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.169 ms - -[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.319 ms - -[0m
+2024-07-05 07:28:19 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.845 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/ [36m304[0m 1.224 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 0.891 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 2.808 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 6.431 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 5.729 ms - -[0m
+2024-07-05 07:28:22 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.539 ms - -[0m
+2024-07-05 07:28:26 info: [0mGET /api-docs/ [36m304[0m 0.929 ms - -[0m
+2024-07-05 07:28:26 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.830 ms - -[0m
+2024-07-05 07:28:26 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 1.863 ms - -[0m
+2024-07-05 07:28:26 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 1.910 ms - -[0m
+2024-07-05 07:28:26 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 1.189 ms - -[0m
+2024-07-05 07:28:45 info: =================================
+2024-07-05 07:28:45 info: ======= ENV: development =======
+2024-07-05 07:28:45 info: 🚀 App listening on the port 3000
+2024-07-05 07:28:45 info: =================================
+2024-07-05 07:28:53 info: [0mGET / [33m404[0m 6.034 ms - 139[0m
+2024-07-05 07:28:54 info: [0mGET / [33m404[0m 1.476 ms - 139[0m
+2024-07-05 07:28:55 info: [0mPOST /organizationSignup [32m200[0m 76.236 ms - 205[0m
+2024-07-05 07:28:57 info: [0mGET /api-docs/ [36m304[0m 2.595 ms - -[0m
+2024-07-05 07:28:57 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 2.884 ms - -[0m
+2024-07-05 07:28:57 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.110 ms - -[0m
+2024-07-05 07:28:57 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.077 ms - -[0m
+2024-07-05 07:28:57 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 2.338 ms - -[0m
+2024-07-05 07:29:28 info: [0mGET /api-docs/ [33m401[0m 0.397 ms - 0[0m
+2024-07-05 07:29:41 info: [0mGET /api-docs/ [32m200[0m 1.613 ms - -[0m
+2024-07-05 07:29:41 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.515 ms - -[0m
+2024-07-05 07:29:41 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 27.527 ms - -[0m
+2024-07-05 07:29:41 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 5.291 ms - -[0m
+2024-07-05 07:29:42 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 150.990 ms - -[0m
+2024-07-05 07:29:42 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 7.799 ms - 628[0m
+2024-07-05 07:30:04 info: =================================
+2024-07-05 07:30:04 info: ======= ENV: development =======
+2024-07-05 07:30:04 info: 🚀 App listening on the port 3000
+2024-07-05 07:30:04 info: =================================
+2024-07-05 07:30:04 info: [0mGET /api-docs/ [36m304[0m 6.941 ms - -[0m
+2024-07-05 07:30:04 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.091 ms - -[0m
+2024-07-05 07:30:04 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 3.399 ms - -[0m
+2024-07-05 07:30:04 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 3.452 ms - -[0m
+2024-07-05 07:30:04 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.599 ms - -[0m
+2024-07-05 07:30:04 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.927 ms - -[0m
+2024-07-05 07:30:16 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-05 07:30:16 info: [0mPOST /login [31m500[0m 30.232 ms - 135[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/ [36m304[0m 1.006 ms - -[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 1.193 ms - -[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.293 ms - -[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 2.526 ms - -[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 2.835 ms - -[0m
+2024-07-05 07:30:18 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.676 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/ [36m304[0m 0.993 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.478 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.379 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.773 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 4.838 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.571 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/ [36m304[0m 0.915 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-init.js [36m304[0m 0.584 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui.css [36m304[0m 3.429 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-bundle.js [36m304[0m 4.026 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [36m304[0m 4.703 ms - -[0m
+2024-07-05 07:30:20 info: [0mGET /api-docs/favicon-32x32.png [36m304[0m 0.540 ms - -[0m
