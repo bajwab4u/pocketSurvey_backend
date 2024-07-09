@@ -1,11 +1,6 @@
-export interface Organization {
+export interface OrganizationRoles {
     id: number;
     name?: string;
-    personContact?: string;
-    address?: string;
-    city?: string;
-    webSite?: string;
-    addedBy?:string;
-    isVerified?:boolean;
+    type?:string
   }
   

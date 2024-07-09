@@ -133,3 +133,5 @@ TSError: ⨯ Unable to compile TypeScript:
     at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
     at Module.require (node:internal/modules/cjs/loader:1231:19)
 2024-07-09 10:00:00 error: [POST] /login >> StatusCode:: 500, Message:: Email bajwab4u@gmail.com not found.
+2024-07-09 10:35:20 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.
+2024-07-09 10:35:33 error: [POST] /login >> StatusCode:: 500, Message:: Incorrect Password.

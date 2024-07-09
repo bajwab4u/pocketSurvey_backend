@@ -30,14 +30,10 @@ export class UserEntity implements User {
   })
   phone: string;
 
-  @ManyToOne(() => OrganizationEntity, { nullable: true })
+  @ManyToOne(() => OrganizationEntity, { nullable: false })
   @JoinColumn({ name: "organizationId" })
   organization: Organization;
 
-  @Column({
-    nullable: true,
-  })
-  role: string;
 
   @Column({
     nullable: true,

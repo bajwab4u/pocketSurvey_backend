@@ -85,7 +85,6 @@ class AuthController {
         data: {
           user: {
             email: user.email,
-            role: user.role || null,
           },
           authToken: token,
         },
@@ -269,7 +268,6 @@ class AuthController {
         data: {
           user: {
             email: user.email,
-            role: user.role,
           },
         },
         pagination: {
