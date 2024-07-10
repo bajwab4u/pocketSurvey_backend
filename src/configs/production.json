@@ -3,16 +3,16 @@
   "dbConfig": {
     "host": "localhost",
     "user": "root",
-    "password": "password",
-    "database": "p10JSBank"
+    "password": "",
+    "database": ""
   },
-  "secretKey": "noerticworldProd",
+  "secretKey": "",
   "log": {
     "format": "combined",
     "dir": "../logs"
   },
   "cors": {
-    "origin": "gamify.noeticworld.com",
+    "origin": "",
     "credentials": true
   }
 }

@@ -54,6 +54,11 @@
             "date": 1720529670684,
             "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-09.log",
             "hash": "54369450cd51df828f07f00418bc212984f99b54c933dea3afe9ac918d17540d"
+        },
+        {
+            "date": 1720604752517,
+            "name": "E:\\Pocket Survey\\pocketSurvey_backend\\src\\logs\\error\\2024-07-10.log",
+            "hash": "a01f296bb728fd1d53697e42eddd62c4a386119848b31e6e086ebca29a39eae4"
         }
     ],
     "hashType": "sha256"

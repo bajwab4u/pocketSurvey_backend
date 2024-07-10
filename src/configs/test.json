@@ -3,10 +3,10 @@
   "dbConfig": {
     "host": "localhost",
     "user": "root",
-    "password": "password",
-    "database": "p10JSBank"
+    "password": "",
+    "database": ""
   },
-  "secretKey": "noeticworldTest",
+  "secretKey": "",
   "log": {
     "format": "dev",
     "dir": "../logs"
